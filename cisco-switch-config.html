@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html LANG="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <title>How to Network</title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <nav id="navbar">
+            <header id="title">Networking Information</header>
+            <ul id="nav-list">
+                <li><a class="nav-link" href="index">Introduction</a></li>
+                <li><a class="nav-link" href="ip-addressing">IP Addressing & Subnetting</a></li>
+                <li><a class="nav-link" href="cisco-commands">Cisco Commands</a></li>
+                <li><a class="nav-link" href="cisco-examples">Cisco Examples</a></li>
+                <li><a class="nav-link" href="it-study-guides">IT Study Guides</a></li>
+                <li><a class="nav-link" href="training-materials">Training Materials</a></li>
+                <li><a class="nav-link" href="Network-Fundamentals-Guide" target="_blank">Network Fundamentals Guide</a></li>
+
+
+        </nav>
+        <main id="main-doc">
+            <section class="main-section">
+                <header>Basic Cisco Switch Config</header>
+                <br>
+                <br>
+                <br>
+                <p>
+                    service timestamps debug datetime msec <br>
+service timestamps log datetime msec <br>
+no service password-encryption<br> <br>
+
+hostname CCIT-HQ-SW01 <br>
+
+boot-start-marker <br> 
+boot-end-marker <br>
+
+no aaa new-model <br>
+system mtu routing 1500 <br>
+ip subnet-zero <br><br>
+
+crypto pki trustpoint TP-self-signed-2754963072 <br>
+ enrollment selfsigned<br>
+ subject-name cn=IOS-Self-Signed-Certificate-2754963072<br>
+ revocation-check none<br>
+ rsakeypair TP-self-signed-2754963072<br><br>
+
+crypto pki certificate chain TP-self-signed-2754963072<br>
+ certificate self-signed 01 nvram:IOS-Self-Sig#3232.cer<br><br>
+
+spanning-tree mode pvst<br>
+spanning-tree extend system-id<br>
+
+vlan internal allocation policy ascending<br>
+
+interface FastEthernet0/1<br>
+ switchport access vlan 10<br>
+ switchport mode access<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/2<br>
+ switchport access vlan 10<br>
+ switchport mode access<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/3<br>
+ switchport access vlan 10<br>
+ switchport mode access<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/4<br>
+ switchport access vlan 10<br>
+ switchport mode access<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/5<br>
+ switchport access vlan 10<br>
+ switchport mode access<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/6<br>
+ switchport access vlan 10<br>
+ switchport mode access<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/7<br>
+ switchport access vlan 10<br>
+ switchport mode access<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/8<br>
+ switchport access vlan 10<br>
+ switchport mode access<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/9<br>
+ switchport access vlan 10<br>
+ switchport mode access<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/10<br>
+ switchport access vlan 10<br>
+ switchport mode access<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/11<br>
+ switchport access vlan 10<br>
+ switchport mode access<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/12<br>
+ switchport access vlan 10<br>
+ switchport mode access<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/13<br>
+ switchport access vlan 10<br>
+ switchport mode access<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/14<br>
+ switchport access vlan 10<br>
+ switchport mode access<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/15<br>
+ switchport access vlan 10<br>
+ switchport mode access<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/16<br>
+ switchport access vlan 10<br>
+ switchport mode access<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/17<br>
+ switchport access vlan 10<br>
+ switchport mode access<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/18<br>
+ switchport access vlan 10<br>
+ switchport mode access<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/19<br>
+ switchport access vlan 10<br>
+ switchport mode access<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/20<br>
+ switchport access vlan 10<br>
+ switchport mode access<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/21<br>
+ switchport mode trunk<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/22<br>
+ switchport mode trunk<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/23<br>
+ switchport mode trunk<br>
+ spanning-tree portfast<br><br>
+
+interface FastEthernet0/24<br>
+ switchport mode trunk<br>
+ spanning-tree portfast<br><br>
+
+interface Vlan1<br>
+ no ip address<br>
+ no ip route-cache<br>
+ shutdown<br><br>
+
+interface Vlan10<br>
+ ip address 10.10.10.2 255.255.255.0<br>
+ no ip route-cache<br><br>
+
+ip http server<br>
+ip http secure-server<br><br>
+
+control-plane<br><br>
+
+line con 0<br>
+line vty 0 4<br>
+ login<br>
+line vty 5 15<br>
+ login<br><br>
+
+end
+
+
+                </p>
+            </section>
+
+        </main>
+    </body>
+</html>
+

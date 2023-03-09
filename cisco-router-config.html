@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html LANG="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <title>How to Network</title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <nav id="navbar">
+            <header id="title">Networking Information</header>
+            <ul id="nav-list">
+                <li><a class="nav-link" href="index">Introduction</a></li>
+                <li><a class="nav-link" href="ip-addressing">IP Addressing & Subnetting</a></li>
+                <li><a class="nav-link" href="cisco-commands">Cisco Commands</a></li>
+                <li><a class="nav-link" href="cisco-examples">Cisco Examples</a></li>
+                <li><a class="nav-link" href="it-study-guides">IT Study Guides</a></li>
+                <li><a class="nav-link" href="training-materials">Training Materials</a></li>
+                <li><a class="nav-link" href="Network-Fundamentals-Guide" target="_blank">Network Fundamentals Guide</a></li>
+
+
+        </nav>
+        <main id="main-doc">
+            <section class="main-section">
+                <header>Basic Cisco Router Config</header>
+                <br>
+                <br>
+                <br>
+                <p>
+                    service timestamps debug datetime msec <br>
+                    service timestamps log datetime msec <br>
+                    no service password-encryption <br> <br>
+                    hostname TEST-RTR01 <br> <br>
+                    boot-start-marker <br>
+                    boot-end-marker <br>
+                    no aaa new-model <br>
+                    ip source-route <br> <br>
+                    ip dhcp pool VLAN 10 <br>
+                     network 10.10.10.0 255.255.255.0 <br>
+                     default-router 10.10.10.1 <br>
+                     dns-server 8.8.8.8 1.1.1.1 <br>
+                    ip cef <bt></bt>
+                    multilink bundle-name authenticated <br> <br></br>
+                    interface FastEthernet0/0 <br>
+                     ip address dhcp <br>
+                     ip nat outside <br>
+                     ip virtual-reassembly in <br>
+                     duplex auto <br>
+                     speed auto <br> <br>
+
+                    interface FastEthernet0/1 <br>
+                     no ip address <br>
+                     duplex auto <br>
+                     speed auto<br> <br>
+
+                    interface FastEthernet0/1.10 <br>
+                     encapsulation dot1Q 10 <br>
+                     ip address 10.10.10.1 255.255.255.0 <br>
+                     ip nat inside <br>
+                     ip virtual-reassembly in <br> <br>
+
+                    interface Serial0/0/0 <br>
+                     no ip address <br>
+                     shutdown <br>
+                     clock rate 2000000 <br> <br>
+
+                    interface Serial0/1/0 <br>
+                     no ip address <br>
+                     shutdown <br>
+                     clock rate 2000000 <br> <br>
+
+                    ip forward-protocol nd <br> <br>
+
+                    no ip http server <br>
+                    ip nat inside source list Local interface FastEthernet0/0 overload <br>
+                    ip route 0.0.0.0 0.0.0.0 192.168.1.1 <br> <br>
+
+                    ip access-list standard Local <br>
+                     permit 10.10.10.0 0.0.0.255 <br> <br>
+
+                    control-plane  <br>
+
+                    line con 0 <br>
+                    line aux 0 <br>
+                    line vty 0 4 <br>
+                     login <br>
+                     transport input all <br> <br>
+
+                    end
+
+
+
+                </p>
+            </section>
+
+        </main>
+    </body>
+</html>
+

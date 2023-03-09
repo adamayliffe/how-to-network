@@ -1,0 +1,1576 @@
+<div class="content-sidebar-wrap"><main class="content"><article class="post-26946 page type-page status-publish entry override" aria-label="Network Fundamentals" itemscope="" itemtype="https://schema.org/CreativeWork"><header class="entry-header"><center><h1 class="entry-title" itemprop="headline">Network Fundamentals</h1></center>
+</header><div class="entry-content" itemprop="text">
+<div class="lwptoc_items lwptoc_items-visible" style="display: block;" data-lwptoc-animation-request-id="864">
+    <div class="lwptoc_itemWrap"><div class="lwptoc_item">    <a href="#Overview_of_Networking_Equipment">
+                <span class="lwptoc_item_label">Overview of Networking Equipment</span>
+    </a>
+    <div class="lwptoc_itemWrap"><div class="lwptoc_item">    <a href="#Hub">
+                <span class="lwptoc_item_label">Hub</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Switch">
+                <span class="lwptoc_item_label">Switch</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Router">
+                <span class="lwptoc_item_label">Router</span>
+    </a>
+    </div></div></div><div class="lwptoc_item">    <a href="#The_Open_Systems_Interconnection_Model">
+                <span class="lwptoc_item_label">The Open Systems Interconnection Model</span>
+    </a>
+    <div class="lwptoc_itemWrap"><div class="lwptoc_item">    <a href="#Encapsulation">
+                <span class="lwptoc_item_label">Encapsulation</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Application_Layer">
+                <span class="lwptoc_item_label">Application Layer</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Presentation_Layer">
+                <span class="lwptoc_item_label">Presentation Layer</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Session_Layer">
+                <span class="lwptoc_item_label">Session Layer</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Transport_Layer">
+                <span class="lwptoc_item_label">Transport Layer</span>
+    </a>
+    <div class="lwptoc_itemWrap"><div class="lwptoc_item">    <a href="#Flow_Control">
+                <span class="lwptoc_item_label">Flow Control</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Windowing">
+                <span class="lwptoc_item_label">Windowing</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Acknowledgments">
+                <span class="lwptoc_item_label">Acknowledgments</span>
+    </a>
+    </div></div></div><div class="lwptoc_item">    <a href="#Network_Layer">
+                <span class="lwptoc_item_label">Network Layer</span>
+    </a>
+    <div class="lwptoc_itemWrap"><div class="lwptoc_item">    <a href="#Network_Layer_Addressing">
+                <span class="lwptoc_item_label">Network Layer Addressing</span>
+    </a>
+    </div></div></div><div class="lwptoc_item">    <a href="#Data_Link_Layer">
+                <span class="lwptoc_item_label">Data Link Layer</span>
+    </a>
+    <div class="lwptoc_itemWrap"><div class="lwptoc_item">    <a href="#Logical_Link_Control_Sublayer_IEEE_8022">
+                <span class="lwptoc_item_label">Logical Link Control Sublayer (IEEE 802.2)</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Media_Access_Control_Sublayer_IEEE_8023">
+                <span class="lwptoc_item_label">Media Access Control Sublayer (IEEE 802.3)</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Data_Link_Protocols">
+                <span class="lwptoc_item_label">Data Link Protocols</span>
+    </a>
+    </div></div></div><div class="lwptoc_item">    <a href="#Physical_Layer">
+                <span class="lwptoc_item_label">Physical Layer</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Summary-The_OSI_Model">
+                <span class="lwptoc_item_label">Summary—The OSI Model</span>
+    </a>
+    </div></div></div><div class="lwptoc_item">    <a href="#The_TCPIP_Model">
+                <span class="lwptoc_item_label">The TCP/IP Model</span>
+    </a>
+    <div class="lwptoc_itemWrap"><div class="lwptoc_item">    <a href="#TCPIP_Application_Layer">
+                <span class="lwptoc_item_label">TCP/IP Application Layer</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#TCPIP_TransportHost-to-Host_Layer">
+                <span class="lwptoc_item_label">TCP/IP Transport/Host-to-Host Layer</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#TCPIP_InternetNetwork_Layer">
+                <span class="lwptoc_item_label">TCP/IP Internet/Network Layer</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#TCPIP_Network_Access_Layer">
+                <span class="lwptoc_item_label">TCP/IP Network Access Layer</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#TCPIP_Services">
+                <span class="lwptoc_item_label">TCP/IP Services</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#File_Transfer_Protocol">
+                <span class="lwptoc_item_label">File Transfer Protocol</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Trivial_File_Transfer_Protocol">
+                <span class="lwptoc_item_label">Trivial File Transfer Protocol</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Simple_Mail_Transfer_Protocol">
+                <span class="lwptoc_item_label">Simple Mail Transfer Protocol</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Hypertext_Transfer_Protocol">
+                <span class="lwptoc_item_label">Hypertext Transfer Protocol</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Telnet">
+                <span class="lwptoc_item_label">Telnet</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Secure_Shell">
+                <span class="lwptoc_item_label">Secure Shell</span>
+    </a>
+    <div class="lwptoc_itemWrap"><div class="lwptoc_item">    <a href="#SSH_File_Transfer_Protocol">
+                <span class="lwptoc_item_label">SSH File Transfer Protocol</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Secure_Sockets_Layer_and_Transport_Layer_Security">
+                <span class="lwptoc_item_label">Secure Sockets Layer and Transport Layer Security</span>
+    </a>
+    </div></div></div><div class="lwptoc_item">    <a href="#Internet_Control_Message_Protocol">
+                <span class="lwptoc_item_label">Internet Control Message Protocol</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Traceroute">
+                <span class="lwptoc_item_label">Traceroute</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Address_Resolution_Protocol">
+                <span class="lwptoc_item_label">Address Resolution Protocol</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Mini-lab_-_Checking_the_ARP_Cache">
+                <span class="lwptoc_item_label">Mini-lab – Checking the ARP Cache</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Proxy_ARP">
+                <span class="lwptoc_item_label">Proxy ARP</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Mini-lab_-_Discovering_Proxy_ARP">
+                <span class="lwptoc_item_label">Mini-lab – Discovering Proxy ARP</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Reverse_Address_Resolution_Protocol">
+                <span class="lwptoc_item_label">Reverse Address Resolution Protocol</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Gratuitous_ARP">
+                <span class="lwptoc_item_label">Gratuitous ARP</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Simple_Network_Management_Protocol">
+                <span class="lwptoc_item_label">Simple Network Management Protocol</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Domain_Name_System">
+                <span class="lwptoc_item_label">Domain Name System</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Mini-lab_-_Pinging_Hostnames">
+                <span class="lwptoc_item_label">Mini-lab – Pinging Hostnames</span>
+    </a>
+    <div class="lwptoc_itemWrap"><div class="lwptoc_item">    <a href="#Router_as_a_DNS_Client">
+                <span class="lwptoc_item_label">Router as a DNS Client</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Router_as_a_DNS_Proxy">
+                <span class="lwptoc_item_label">Router as a DNS Proxy</span>
+    </a>
+    </div></div></div><div class="lwptoc_item">    <a href="#Cisco_Discovery_Protocol">
+                <span class="lwptoc_item_label">Cisco Discovery Protocol</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Mini-lab_-_Checking_for_CDP_Neighbors">
+                <span class="lwptoc_item_label">Mini-lab – Checking for CDP Neighbors</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Link-Layer_Discovery_Protocol">
+                <span class="lwptoc_item_label">Link-Layer Discovery Protocol</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Mini-lab_-_Discovering_Devices_with_LLDP">
+                <span class="lwptoc_item_label">Mini-lab – Discovering Devices with LLDP</span>
+    </a>
+    </div></div></div><div class="lwptoc_item">    <a href="#Network_Topologies">
+                <span class="lwptoc_item_label">Network Topologies</span>
+    </a>
+    <div class="lwptoc_itemWrap"><div class="lwptoc_item">    <a href="#Point-to-Point">
+                <span class="lwptoc_item_label">Point-to-Point</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Point-to-Multipoint">
+                <span class="lwptoc_item_label">Point-to-Multipoint</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Ring">
+                <span class="lwptoc_item_label">Ring</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Star">
+                <span class="lwptoc_item_label">Star</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Bus">
+                <span class="lwptoc_item_label">Bus</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#WAN-specific">
+                <span class="lwptoc_item_label">WAN-specific</span>
+    </a>
+    </div></div></div><div class="lwptoc_item">    <a href="#End_of_Chapter_Questions">
+                <span class="lwptoc_item_label">End of Chapter Questions</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Chapter_1_Labs">
+                <span class="lwptoc_item_label">Chapter 1 Labs</span>
+    </a>
+    <div class="lwptoc_itemWrap"><div class="lwptoc_item">    <a href="#Lab_1_Basic_Lab_-_Router_Modes_and_Commands">
+                <span class="lwptoc_item_label">Lab 1: Basic Lab – Router Modes and Commands</span>
+    </a>
+    <div class="lwptoc_itemWrap"><div class="lwptoc_item">    <a href="#Purpose">
+                <span class="lwptoc_item_label">Purpose</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Lab_Objectives">
+                <span class="lwptoc_item_label">Lab Objectives</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Lab_Walk-through">
+                <span class="lwptoc_item_label">Lab Walk-through</span>
+    </a>
+    </div></div></div><div class="lwptoc_item">    <a href="#Lab_2_ARP_CDP_Ping_and_Telnet_Lab">
+                <span class="lwptoc_item_label">Lab 2: ARP, CDP, Ping, and Telnet Lab</span>
+    </a>
+    <div class="lwptoc_itemWrap"><div class="lwptoc_item">    <a href="#Lab_Exercise">
+                <span class="lwptoc_item_label">Lab Exercise</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Purpose1">
+                <span class="lwptoc_item_label">Purpose</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Lab_Objectives1">
+                <span class="lwptoc_item_label">Lab Objectives</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Lab_Walk-through1">
+                <span class="lwptoc_item_label">Lab Walk-through</span>
+    </a>
+    </div></div></div><div class="lwptoc_item">    <a href="#Lab_3_Traceroute_from_Router_A_to_Router_B">
+                <span class="lwptoc_item_label">Lab 3: Traceroute from Router A to Router B</span>
+    </a>
+    <div class="lwptoc_itemWrap"><div class="lwptoc_item">    <a href="#Lab_Exercise1">
+                <span class="lwptoc_item_label">Lab Exercise</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Purpose2">
+                <span class="lwptoc_item_label">Purpose</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Lab_Walk-through2">
+                <span class="lwptoc_item_label">Lab Walk-through</span>
+    </a>
+    </div></div></div><div class="lwptoc_item">    <a href="#Lab_4_Copy_Startup_Config_Using_TFTP">
+                <span class="lwptoc_item_label">Lab 4: Copy Startup Config Using TFTP</span>
+    </a>
+    <div class="lwptoc_itemWrap"><div class="lwptoc_item">    <a href="#Lab_Exercise2">
+                <span class="lwptoc_item_label">Lab Exercise</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Purpose3">
+                <span class="lwptoc_item_label">Purpose</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Lab_Objectives2">
+                <span class="lwptoc_item_label">Lab Objectives</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Lab_Walk-through3">
+                <span class="lwptoc_item_label">Lab Walk-through</span>
+    </a>
+    </div></div></div></div></div></div></div>
+</div></div>
+<h2><span id="Overview_of_Networking_Equipment">Overview of Networking Equipment</span></h2>
+<p>The earlier versions of the CCNA exam did not focus on basic networking concepts and theory, but this has changed now. Cisco expects you to have a good working knowledge of general networking, LAN and WAN topologies, and equipment (hence my suggestion to read a good <a href="https://amzn.to/3ljtfOX" target="_blank" rel="noopener">Network+ labs</a> or study guide). We will cover some of the basics in this book, but I’ll presume that this is just a recap for you. Please also check out the <a href="https://www.comptia.org/certifications/network" target="_blank" rel="noopener">CompTIA Network+ page</a>.</p>
+<p>A computer network can be as small as two computers connected by a single cable (or wirelessly) to the largest network in the world—the Internet. To connect a large number of PCs, specialized equipment and protocols have been designed to carry out tasks such as segmenting domains, preventing broadcast storms, and moving packets from one part of the network to the other as efficiently as possible.</p>
+<h3><span id="Hub">Hub</span></h3>
+<p>The most rudimentary piece of networking equipment is a hub. Hubs are fairly rare nowadays, but we will refer to them later on because they explain why we needed to change the way traffic is sent across a Local Area Network (LAN).</p>
+<p>A hub simply allows several networking devices to communicate. Each device plugs into a port on the hub using a network cable (more on these cables later). The simplest network you can build is a few PCs connected to a hub. Hubs have no memory or hard drive, so they can never remember which device is plugged into which port. When a hub receives data on one port, it just forwards it to all the other ports. This causes a lot of unnecessary traffic to pass through the network.</p>
+<p><strong>FIG 1.1 – Every frame is received by every device when a hub is used</strong></p>
+<h3><span id="Switch">Switch</span></h3>
+<p>One drawback of using hubs is that, because they have no memory, they can never keep a record of which PC is plugged into which port. For this reason, every time one PC wants to speak to another, every single PC plugged into the hub gets a copy of the information (contained within a frame) sent out on the wire. Every time a PC receives this information, it has to use processing power to determine whether it is the intended recipient. As you can imagine, this is very inefficient and can become a major problem as more and more devices are connected to the hub.</p>
+<p>A data frame sent to every device on a network segment at the same time is referred to as a broadcast. Too many broadcasts in a network can cause delays and dramatically reduce performance. A high number of broadcasts causes an enormous amount of traffic to traverse the network at any one time. A broadcast is usually sent when a data frame is trying to find a host in the network and doesn’t know its current location.</p>
+<p>Switches operate by building a list of which PCs are connected to which ports, allowing the available bandwidth to be used a lot more efficiently. If a PC wants to send data to another PC via a switch, the switch will forward the traffic only to the port to which the intended recipient is connected. If it doesn’t know the port, it will send out a broadcast to find out where in the network the PC is. Switches and hubs are designed to forward broadcast traffic as data frames addressed to every device in the network.</p>
+<p><strong>FIG 1.2 – Switches forward frames only to the relevant port</strong></p>
+<p>Because switches only forward broadcast information when the destination is unknown, they are used to create smaller collision domains. A collision domain consists of an area in the network that a data frame will reach if there is a collision. In earlier implementations of Ethernet, all the devices were in the same collision domain because they were on the same wire or they were all connected to a hub.</p>
+<p>A collision occurs when a data frame, traveling along a network cable, collides with another frame. The collision causes the data inside the frame to become corrupted. This corrupted frame is received by every device within the collision domain. Smaller collision domains mean that traffic will move faster throughout the network.</p>
+<p>It’s very important to be able to recognize collision domains in the CCNA exam because you could be presented with a diagram showing routers, switches, and hubs and asked how many collision and broadcast domains have been created. Figure 1.3 below demonstrates a network hub that has created one collision domain (it’s also one broadcast domain because there are no VLANs or routers present). If you ever see a hub in a network diagram referring to collision and broadcast domains, remember that the hub does not increase the number of collision domains or reduce the number of broadcast domains.</p>
+<p>&nbsp;</p>
+
+<p><strong>FIG 1.3 – Hubs are in one collision domain</strong></p>
+<p>If you swapped the hub for a switch, you would have four collision domains (one per port used). All devices would still be in the same broadcast domain though.</p>
+
+<p><strong>FIG 1.4 – Each switch port creates a collision domain</strong></p>
+<p>We will cover this in more detail later, but it’s worth noting that if you created two VLANs on the switch, you would have two broadcast domains. More VLANs equal more broadcast domains.</p>
+
+<p><strong>FIG 1.5 – VLANs create broadcast domains</strong></p>
+<p>We will cover collision domains in more detail in the next chapter.</p>
+<p>Modern network standards have all but eliminated collisions in the network, but you still need to understand them in case you need to troubleshoot them on your network. Figures 1.6 and 1.7 illustrate the problem caused when frames collide on the wire.</p>
+
+<p><strong>FIG 1.6 – Frames can collide on the wire</strong></p>
+
+<p><strong>FIG 1.7 – A corrupted frame is heard by every device in a collision domain</strong></p>
+<p>You may have read about network bridges in older networking manuals. A bridge is similar to a switch; however, they usually have only two ports, whereas a switch has several ports. A switch is basically a multiport bridge.</p>
+<p>Cisco Systems offers a large range of network switches to service small offices all the way up to large service providers. It would be well worth your time to visit Cisco.com and browse the available models and features. At the time of writing this guide, the switch used in the exam was the 2960 model.</p>
+
+<p><strong>FIG 1.8 – Cisco 2960 Switch</strong></p>
+<p>Using layer 2 switches to create fewer users per segment is known as microsegmentation. Microsegmentation creates dedicated network segments (i.e., one user per segment). Each user receives instant access to the full bandwidth and therefore does not have to contend for available bandwidth with other users. The outcome is that collisions (commonplace when using hubs) no longer occur (provided you are using full-duplex).</p>
+<p>Switches offer another advantage over hubs. Most can store frames in the buffer memory, allowing them to be stored and then forwarded sequentially when the wire is clear.</p>
+<h3><span id="Router">Router</span></h3>
+<p>A router is designed to store a directory of networks. Rather than concerning itself with which PC is where, a router’s job is to find out where different networks are. It then sends the traffic via the best path. This path could be the fastest, most reliable, or shortest, or a combination of these features, depending on how you want traffic to be sent as the network administrator. If the router does not know how to get traffic to its intended destination, it will either drop the packet or forward it to another router that should know how to get it there (we will cover default gateways later).</p>
+<p>It is important to remember that by default, routers do not forward broadcasts. If they did, you would find that most networks, including the Internet, would be extremely slow because of all the broadcasts passing across them.</p>
+
+<p><strong>FIG 1.9 – Cisco 1900 Series Router</strong></p>
+<p>Because they do not forward broadcast information, routers are used to create broadcast domains. Broadcasts in the network will stop at the router (unless you configure it to forward them, which isn’t recommended). We’ll put all of this together when we revisit collision domains later.</p>
+<p>For the exam, remember that switches segment collision domains. Every port on the switch is a separate collision domain, which means a collided frame won’t travel past the port. Remember also that routers segment broadcast domains, and every port on the router is a separate broadcast domain. Finally, all the ports in a hub are in ONE collision domain, while all the ports in a switch are in the same broadcast domain.</p>
+<h2><span id="The_Open_Systems_Interconnection_Model">The Open Systems Interconnection Model</span></h2>
+<p>In the 1980s, there was a huge increase in the number of companies producing networking equipment and protocols. It was very difficult to connect networks together and almost impossible to do so using different vendors’ equipment. The job of standardizing networking fell on the International Organization for Standardization (ISO). The ISO created a model for every company to follow when designing networking hardware and software. This model was named the Open Systems Interconnection model, more commonly known as the OSI model.</p>
+<p>The OSI model not only serves as a reference—there is also a practical value in using it. There must be some way to order things so we know which devices do which job. What if your company wants to buy switches from a different vendor than the one it buys their routers from—how can it be sure that the equipment will work together?</p>
+<p>Advantages of using the OSI model include the following:</p>
+<ul>
+<li>Allows different vendors’ equipment to work together</li>
+<li>Allows different types of network hardware and software to communicate</li>
+<li>A change made in one layer does not affect any of the other layers</li>
+</ul>
+<p>The OSI model consists of seven different layers, and each layer is responsible for a specific function or set of functions. We always refer to the model in the order below, starting with layer 7:</p>
+<ul>
+<li>Application (layer 7)</li>
+<li>Presentation (layer 6)</li>
+<li>Session (layer 5)</li>
+<li>Transport (layer 4)</li>
+<li>Network (layer 3)</li>
+<li>Data link (layer 2)</li>
+<li>Physical (layer 1)</li>
+</ul>
+<table>
+<tbody>
+<tr>
+
+<td width="545">The application layer is also known as layer 7; it is never called layer 1. The physical layer is always known as layer 1, and so on.</td>
+</tr>
+</tbody>
+</table>
+<p>An easy way to remember the order of the layers is to use the acronym APSTNDP (All People Seem To Need Data Processing).</p>
+<h3><span id="Encapsulation">Encapsulation</span></h3>
+<p>As data passes down each OSI layer, a new header is added to it; this process is called encapsulation. The header contains information about how the data should be treated by the receiver. As data is encapsulated while moving down the layers, it will be known by a different name. This is necessary because each layer requires a different set of information and addressing to work properly. When the data is received at the destination, it is then de-encapsulated, a process that removes each header, and then the information is passed up to the next layer.</p>
+<p>As shown in Figure 1.10 below, the order of data encapsulation is data, segment, packet, frame, and bit. An easy way to remember the order of data encapsulation is to use the acronym DSPFB (Don’t Some People Fry Bacon).</p>
+
+<p><strong>FIG 1.10 – Five steps of data encapsulation</strong></p>
+<p>Data turns into a segment at the transport layer, which turns into a packet at the network layer, which turns into a frame at the data link layer, which turns into a bit at the physical layer. Any exam question that refers to a data frame or packet and asks which OSI layer it applies to can be easily answered if you remember the acronym for the five steps of data encapsulation above.</p>
+<p>An easy way to see the division of the various layers is by examining a packet capture from software such as Wireshark. We will be looking at packet captures throughout this guide, so download your own free copy at <a href="https://www.wireshark.org/" target="_blank" rel="noopener">https://www.wireshark.org/</a> (if you downloaded the GNS3 virtual machine, packet capture software is included).</p>
+
+<p><strong>FIG 1.11 – OSI as seen inside Wireshark</strong></p>
+<p>If you are using Wireshark, you can use another view via Protocol Hierarchy Statistics, which will display the used OSI layers, as shown in Figure 1.12 below:</p>
+
+<p><strong>FIG 1.12 – Protocol hierarchy statistics inside Wireshark</strong></p>
+<h3><span id="Application_Layer">Application Layer</span></h3>
+<p>The application layer is where most users interact with the network. It establishes whether the destination is available to communicate and determines whether sufficient resources are available to do so.</p>
+<p>There are many services that operate at the application layer. Some of them include:</p>
+<ul>
+<li><strong>World Wide Web (WWW) </strong>– connects millions of users to servers and provides multimedia functions such as text, graphics, and sound</li>
+<li><strong>E-mail (SMTP, POP) </strong>– the standard used to send and receive e-mail all over the world</li>
+<li><strong>File Transfer Protocol (FTP)</strong> – provides a means to upload and download large files over networks (imagine having to e-mail a colleague a 20 Mb file!)</li>
+<li><strong>Telnet </strong>– used to connect to networking devices remotely (many network engineers connect to their networking equipment many miles away from the actual physical location)</li>
+</ul>
+<p>In the exam, you might be expected to explain how you would test whether all seven OSI layers are working correctly on your network. The answer would be that you could telnet or FTP to another host.</p>
+<h3><span id="Presentation_Layer">Presentation Layer</span></h3>
+<p>The function of the presentation layer is to present data to the application layer. It converts coded data into a format the application layer can understand. It is also responsible for data encryption, data decryption, and, finally, data compression.</p>
+<p>The presentation layer converts many multimedia functions for the application layer, including:</p>
+<ul>
+<li><strong>JPEG (Joint Photographic Experts Group)</strong> – a widely used image format</li>
+<li><strong>MPEG (Moving Pictures Experts Group)</strong> – the format used for video compression and coding</li>
+<li><strong>QuickTime</strong> – manages audio and video for Macs and iPads</li>
+<li><strong>ASCII (American Standard Code for Information Interchange)</strong> – the standard format for text and data</li>
+</ul>
+<table>
+<tbody>
+<tr>
+
+<td width="540">Aside from what is listed as Graphic Image File (GIF), Bitmap (BMP), MP3, and EBCIDIC (or mainframe language), any protocol that will change the look of the data operates at the presentation layer.</td>
+</tr>
+</tbody>
+</table>
+<h3><span id="Session_Layer">Session Layer</span></h3>
+<p>In the session layer, sessions or dialogs between applications are set up, managed, and eventually terminated. A session is coordinated and synchronized to prevent different applications’ data from becoming mixed up during transfer.</p>
+<p>Some of the protocols that operate at the session layer include:</p>
+<ul>
+<li><strong>Network File System (NFS)</strong> – developed by Sun/IBM for use with TCP/IP and UNIX to allow transparent remote access to resources</li>
+<li><strong>Structured Query Language (SQL</strong>) – provides a simple means of accessing system information on local or remote systems</li>
+<li><strong>Remote Procedure Call (RPC)</strong> – procedures created on a client and performed on a server</li>
+</ul>
+<h3><span id="Transport_Layer">Transport Layer</span></h3>
+<p>In this layer, end-to-end data transport services are provided to the upper OSI layers. The transport layer takes data from the upper layers, breaks it into smaller units called segments, and adds logical transport information in the header.</p>
+<p>Before communication can take place, an end-to-end logical connection called a virtual circuit has to be established. The transport layer includes several protocols, the most common being Transmission Control Protocol (TCP) and User Datagram Protocol (UDP), which are a part of the TCP/IP (Internet Protocol) suite of protocols. The TCP/IP suite is the standard suite on which most of the Internet operations are based.</p>
+<p>TCP is considered a reliable connection-oriented protocol. It uses reliable mechanisms to initiate and terminate connections. It also has flow control and congestion avoidance mechanisms to ensure that data gets to its destination safely. Many application layer protocols use TCP as the transport protocol. Some of them include Telnet, HTTPS (Hypertext Transfer Protocol Secure), and FTP (although they sit at the application layer, they do use TCP).</p>
+<p>In TCP, a logical end-to-end connection is achieved by each end-system agreeing that a connection is about to be initiated. This process is known as a three-way handshake. The handshake can be seen if the packets on the wire are read and can be identified by fields in the packet marked SYN, SYN ACK, and ACK. This handshake process will be further detailed in a following section.</p>
+
+<p>You can see this process happening with a packet capture. We will also touch on this process later on.</p>
+
+<p><strong>FIG 1.14 – Packet capture of a three-way handshake</strong></p>
+<p>Data transfer using TCP as the transport protocol is considered to be reliable. This means that there is a guarantee that the data sent will reach the intended destination. This is accomplished by using three methods:</p>
+<ol>
+<li>Flow control</li>
+<li>Windowing</li>
+<li>Acknowledgments</li>
+</ol>
+<h4><span id="Flow_Control">Flow Control</span></h4>
+
+<p><strong>FIG 1.15 – Flow control</strong></p>
+<p>If the receiver is sent more information than it can process, it will ask the sender to stop for a short while. An example of when this can occur is when both sides are using different speeds (e.g., one side is using broadband while the other is using a dial-up modem). The packet sent to stop the sender is known as a source quench message.</p>
+<h4><span id="Windowing">Windowing</span></h4>
+<p>The TCP window is the amount of data that can be sent before an acknowledgment is required from the receiver. The sender and receiver agree on the window size, and this can be scaled up and down as required.</p>
+
+<p><strong>FIG 1.16 – Windowing</strong></p>
+<h4><span id="Acknowledgments">Acknowledgments</span></h4>
+<p>Acknowledgments are messages indicating the successful receipt of TCP segments. If a sender does not receive acknowledgments for the segments sent after a certain period, then it knows there is something wrong.</p>
+
+<p><strong>FIG 1.17 – Acknowledgments</strong></p>
+<p>UDP, on the other hand, is a connectionless protocol. In other words, it does not care about sequencing or acknowledgments, and it does not have all the fancy mechanisms that TCP uses to ensure that its segments reach their destination safely. This means that applications using UDP must be responsible for their own reliability.</p>
+<p>Why is UDP used at all? Unlike TCP, UDP is lightweight. Because it does not have to initiate a connection using a three-way handshake, UDP can be used for applications where speed and bandwidth are a concern. In some cases, these issues are more important than the reliability that TCP provides. Protocols carried on UDP include SNMP (Simple Network Management Protocol) and TFTP (Trivial File Transfer Protocol).</p>
+<h3><span id="Network_Layer">Network Layer</span></h3>
+<p>The role of the network layer is to determine the best path or route for data to take from one network to another. Data from the session layer are assembled into packets at this layer, and this is where the end-to-end delivery of packets occurs.</p>
+<p>Because networks need some way of identifying themselves, logical addressing also takes place at the network layer. The most popular form of network addressing today is IP addressing using IPv4 or IPv6.</p>
+<p><strong>Table 1-1: Router B best-path routing table</strong></p>
+<table style="height: 214px;" width="646">
+<tbody>
+<tr>
+<td width="208">Destination Network</td>
+<td width="208">Next Hop</td>
+<td width="208">Number of Hops Away</td>
+</tr>
+<tr>
+<td width="208">Network 1</td>
+<td width="208">None</td>
+<td width="208">Directly connected</td>
+</tr>
+<tr>
+<td width="208">Network 2</td>
+<td width="208">None</td>
+<td width="208">Directly connected</td>
+</tr>
+<tr>
+<td width="208">Network 3</td>
+<td width="208">Router A</td>
+<td width="208">1</td>
+</tr>
+<tr>
+<td width="208">Network 3</td>
+<td width="208">Router C</td>
+<td width="208">1</td>
+</tr>
+<tr>
+<td width="208">Network 4</td>
+<td width="208">Router A</td>
+<td width="208">1</td>
+</tr>
+<tr>
+<td width="208">Network 4</td>
+<td width="208">Router C</td>
+<td width="208">2</td>
+</tr>
+</tbody>
+</table>
+<p>The best path is decided at the network layer. Each router stores a table of which networks are directly connected and how to get to the networks that are not. You can see the routing table for Router B in Table 1-1 above.</p>
+
+<p><strong>FIG 1.18 – Best path is decided at the network layer</strong></p>
+<p>Routers operate exclusively at the network layer of the OSI model. When a packet arrives at a router interface, the router looks at the destination network address and decides whether that network is directly connected. If it is not, the router looks at its routing table to see which exit interface it should leave by.</p>
+<h4><span id="Network_Layer_Addressing">Network Layer Addressing</span></h4>
+<p>Logical addressing for TCP/IP uses 32 binary bits to make up a network address (if using IPv4 addressing). Binary is written out in decimal to make it easier to read and understand. An example of a logical address for TCP/IP is 192.168.2.3, where 192.168.2 identifies the network, and 3 belongs to a host in that network. IP addressing is covered in more detail in Chapter 6 of this study guide.</p>
+
+<p><strong>FIG 1.19 – Hosts in a network</strong></p>
+<p>Network layer protocols include IP, IPX, and AppleTalk, although the last two are now obsolete.</p>
+<h3><span id="Data_Link_Layer">Data Link Layer</span></h3>
+<p>The data link layer is divided into two sublayers—LLC and MAC—as shown in Figure 1.20 below:</p>
+
+<p><strong>FIG 1.20 – The data link layer</strong></p>
+<p>The data link layer takes packets from the network layer and divides them into smaller units known as frames. Frames are then transported across a physical medium (i.e., wires). The data link layer has its own way of addressing known as hardware addressing. While the network layer determines where networks are located, the data link layer determines where hosts are located on a particular network.</p>
+<h4><span id="Logical_Link_Control_Sublayer_IEEE_8022">Logical Link Control Sublayer (IEEE 802.2)</span></h4>
+<p>The LLC sublayer interfaces with the network layer and provides Service Access Points (SAPs); these allow the MAC sublayer to communicate with the upper layers of the OSI model.</p>
+<h4><span id="Media_Access_Control_Sublayer_IEEE_8023">Media Access Control Sublayer (IEEE 802.3)</span></h4>
+<p>The MAC layer directly interfaces with the physical layer. This is where the physical address of the interface or device is stored. A MAC address is a 48-bit address expressed as 12 hexadecimal digits. This address identifies both the manufacturer of the device and the specific host.</p>
+
+<p><strong>FIG 1.21 – MAC address on a PC: 60-A4-4C-41-33-77</strong></p>
+<p>The best example of MAC addressing is the address hard-coded onto the network interface card (NIC) in a PC or server. You can see the MAC address (shown as the physical address) of your network card by typing ipconfig/all after the command prompt on your Windows PC. You can use /sbin/ifconfig on the terminal if you are using a MAC or a Linux machine.</p>
+<p>In Figure 1.21 above, the first three bytes identify the vendor for the NIC (60-A4-4C). This is known as the Organizationally Unique Identifier (OUI), which is assigned to manufacturers by the Institute of Electrical and Electronics Engineers (IEEE). The next three bytes (41-33-77) are assigned by the vendor and must be unique to prevent the same address from being used twice. Some shady manufacturers do not follow these rules, so always buy vendor-approved equipment to avoid problems.</p>
+<p>The MAC address allows devices to have a unique layer 2 address and allows communication to take place at layer 2. Switches and bridges operate at the data link layer of the OSI model. A table of MAC addresses and the port they are connected to is maintained by both devices.</p>
+<h4><span id="Data_Link_Protocols">Data Link Protocols</span></h4>
+<p>There are many protocols operating at the data link layer. Protocols are an agreed format through which devices in a network communicate with one another. The reason why protocols operate at the data link layer is twofold. First, a connection has to take place before network layer communication can start. Second, data link layer communication is a lot faster than network layer communication because there is far less overhead involved in data link layer networking.</p>
+<p>Data link protocols operate on both LANs and WANs and include Ethernet, PPP, Frame Relay, and many more. We will address the protocols pertinent to the CCNA exam in the relevant chapters.</p>
+<p><strong>FOR THE EXAM:</strong> Because you are using packets at the network layer and frames at the data link layer, remember that <strong>you ROUTE PACKETS and FORWARD FRAMES.</strong></p>
+<h3><span id="Physical_Layer">Physical Layer</span></h3>
+<p>The physical layer takes frames from the data link layer and converts them into bits. The physical layer has to use bits (binary digits) since data on a wire can be sent only as a pulse of electricity or light—that is, only as one of two values, either a 1 or a 0.</p>
+<p>The physical layer deals with the physical characteristics of the medium, such as the number of pins and their uses. Physical layer specifications include IEEE 802.3, FDDI, Ethernet, RJ-45, and many more.</p>
+<p>Hubs operate at the physical layer of the OSI model. Hubs take the bits, strengthen the signal if it has been degraded, and send them out to every device connected to the ports.</p>
+
+<p><strong>FIG 1.22 – Hubs and repeaters strengthen the signal on the wire</strong></p>
+<h3><span id="Summary-The_OSI_Model">Summary—The OSI Model</span></h3>
+<p>The OSI model can be summarized as shown in Table 1-2 below:</p>
+<p><strong>Table 1-2: The OSI model summarized</strong></p>
+<table>
+<tbody>
+<tr>
+<td width="114"><strong>Layer</strong></td>
+<td width="114"><strong>Encapsulation</strong></td>
+<td width="168"><strong>Function</strong></td>
+<td width="120"><strong>Services</strong></td>
+<td width="107"><strong>Device</strong></td>
+</tr>
+<tr>
+<td width="114">7 Application</td>
+<td width="114">Data</td>
+<td width="168">Establishes availability of resources</td>
+<td width="120">FTP, SMTP, Telnet, POP3</td>
+<td width="107">Hosts/Firewalls</td>
+</tr>
+<tr>
+<td width="114">6 Presentation</td>
+<td width="114">Data</td>
+<td width="168">Compression, encryption, and decryption</td>
+<td width="120">JPEG, GIF, MPEG, ASCII</td>
+<td width="107">Hosts/Firewalls</td>
+</tr>
+<tr>
+<td width="114">5 Session</td>
+<td width="114">Data</td>
+<td width="168">Establishes, maintains, and terminates sessions</td>
+<td width="120">NFS, SQL, RPC</td>
+<td width="107">Hosts/Firewalls</td>
+</tr>
+<tr>
+<td width="114">4 Transport</td>
+<td width="114">Segment</td>
+<td width="168">Establishes end-to-end connection; uses virtual circuits, buffering, windowing, and flow control</td>
+<td width="120">TCP, UDP</td>
+<td width="107">Hosts/Firewalls</td>
+</tr>
+<tr>
+<td width="114">3 Network</td>
+<td width="114">Packet</td>
+<td width="168">Determines best path for packets to take</td>
+<td width="120">IP</td>
+<td width="107">Router</td>
+</tr>
+<tr>
+<td width="114">2 Data Link (LLC, MAC)</td>
+<td width="114">Frame</td>
+<td width="168">Transports data across a physical connection; error detection</td>
+<td width="120">Frame Relay, PPP, HDLC</td>
+<td width="107">Switch/Bridge</td>
+</tr>
+<tr>
+<td width="114">1 Physical</td>
+<td width="114">Bits</td>
+<td width="168">Puts data onto the wire</td>
+<td width="120"></td>
+<td width="107">Hub/Cables</td>
+</tr>
+</tbody>
+</table>
+<p><strong>FOR THE EXAM</strong>: A thorough knowledge of the OSI model is vital for the exam. Know each level, encapsulation formats, and which device sits where.</p>
+<h2><span id="The_TCPIP_Model">The TCP/IP Model</span></h2>
+<p>There are different models of representation for internetworking. After the OSI model, comes the TCP/IP model in terms of popularity. The TCP/IP model, which is loosely outlined in RFC 1122 as a four-layer model, does not map directly to the OSI model. RFCs are Requests for Comments, which are documents proposing network protocols and services.</p>
+<p><strong>Table 1-3: The OSI and TCP/IP models</strong></p>
+<table>
+<thead>
+<tr>
+<td width="170"><strong>OSI</strong></td>
+<td width="444"><strong>TCP/IP</strong></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="170">Application</td>
+<td rowspan="3" width="444">&nbsp;
+<p>Application</p></td>
+</tr>
+<tr>
+<td width="170">Presentation</td>
+</tr>
+<tr>
+<td width="170">Session</td>
+</tr>
+<tr>
+<td width="170">Transport</td>
+<td width="444">Transport/Host-to-Host</td>
+</tr>
+<tr>
+<td width="170">Network</td>
+<td width="444">Internet</td>
+</tr>
+<tr>
+<td width="170">Data Link</td>
+<td rowspan="2" width="444">&nbsp;
+<p>Network Access/Network Interface</p></td>
+</tr>
+<tr>
+<td width="170">Physical</td>
+</tr>
+</tbody>
+</table>
+<p>Unfortunately, there are a variety of TCP/IP models that use different terms for the layers or have five layers instead of four, as shown below. The lowest TCP layer can be referred to as the physical layer, the link layer, or the network interface.</p>
+<table>
+<tbody>
+<tr>
+<td width="144">Application</td>
+</tr>
+<tr>
+<td width="144">Transport</td>
+</tr>
+<tr>
+<td width="144">Network</td>
+</tr>
+<tr>
+<td width="144">Data Link</td>
+</tr>
+<tr>
+<td width="144">Physical</td>
+</tr>
+</tbody>
+</table>
+<p>The Cisco Network Academy course book refers to the TCP/IP model as having four layers (see Mark A. Dye, Rick McDonald, and Antoon W. Rufi. Network Fundamentals: CCNA Exploration Companion Guide. 2007. ISBN 1-58713-208-7), while Douglas E. Comer’s highly regarded textbook Internetworking with TCP/IP: Principles, Protocols and Architecture (2005. Pearson Prentice Hall. ISBN 0-13-187671-6) refers to the TCP/IP model as having five layers.</p>
+<h3><span id="TCPIP_Application_Layer">TCP/IP Application Layer</span></h3>
+<p>The application layer in the TCP/IP model covers the functionality of the session, presentation, and application layers in the OSI model. Various protocols can be used in this layer, including:</p>
+<ul>
+<li><strong>SMTP, POP3</strong> – used to provide e-mail services</li>
+<li><strong>HTTP</strong> – World Wide Web browser content delivery protocol</li>
+<li><strong>FTP</strong> – used in file transfer</li>
+<li><strong>DNS</strong> – used in domain name translation</li>
+<li><strong>SNMP</strong> – network management protocol</li>
+<li><strong>DHCP</strong> – used to automatically assign IP addresses to network devices</li>
+<li><strong>Telnet</strong> – used to manage and control network devices</li>
+</ul>
+<p>The TCP/IP application layer does not provide the actual services; it does, however, define the services the applications require. An example would be your web browser requesting HTTP services from the network. The application layer would provide the interface for this to take place.</p>
+<p>Confusingly for many students, some routing protocols such as Border Gateway Protocol (BGP) and Routing Information Protocol (RIP) reside at the TCP/IP application layer; for example, BGP uses TCP to transport its messages, whereas RIP uses UDP. However, for other protocols such as Open Shortest Path First (OSPF), this isn’t the case because they encapsulate messages within IP packets.</p>
+<h3><span id="TCPIP_TransportHost-to-Host_Layer">TCP/IP Transport/Host-to-Host Layer</span></h3>
+<p>The protocols that operate at and control the transport/host-to-host layer are specified in this layer. The TCP/IP transport layer controls the end-to-end logical connection between two devices. Both the TCP/IP transport and Internet layer demonstrate considerable differences compared to the corresponding OSI layers. The transport layer is based on two protocols:</p>
+<ul>
+<li><strong>TCP</strong> – This provides connection-oriented communication. This means the path on which the data travels in the network is reliable because the endpoints establish a synchronized connection before sending the data. Every data packet is acknowledged by the receiving host and includes a Checksum field to check for error detection. FTP is an example of a protocol that uses TCP.</li>
+<li><strong>UDP</strong> – This provides unreliable, connectionless communication between hosts. Unlike TCP, UDP does not check the segments that arrive at the destination to ensure that they are valid and in the proper order. This means that the integrity verifications and the error connection process will occur in the application layer. In fact, unlike TCP, UDP doesn’t set up a connection between the sender and the recipient. On the other hand, UDP has a smaller overhead than TCP because the UDP header is much smaller. TFTP is an example of a protocol that uses UDP.</li>
+</ul>
+<p>The TCP and UDP protocol data units are segments. Each segment contains a number of fields that carry different information about the data, as shown in Figure 1.23 below (we will cover some of the individual fields later in this manual):</p>
+
+<p><strong>FIG 1.23 – UDP and TCP segment fields</strong></p>
+<p>The TCP header is larger than the UDP header because of all the extra fields needed to ensure a reliable connection.</p>
+<p>Applications that are dependent on TCP and UDP use specific port numbers to operate. Port numbers can take values up to 65535. Most of the common applications are assigned well-known port numbers, which are numbers up to 1023. Port numbers 1024 through 49151 are registered port numbers, and the range 49152 through 65535 defines dynamic port numbers (automatically assigned by network devices). Port numbers are used to distinguish between applications running on the same device. Examples of well-known port numbers include:</p>
+<ul>
+<li><strong>HTTP</strong> – TCP port 80</li>
+<li><strong>FTP</strong> – TCP port 20 (data) and 21 (control)</li>
+<li><strong>TFTP</strong> – UDP port 69</li>
+<li><strong>POP3</strong> – TCP port 110</li>
+<li><strong>SMTP</strong> – TCP port 25</li>
+<li><strong>DNS</strong> – TCP and UDP port 53</li>
+<li><strong>SNMP</strong> – UDP port 161/162</li>
+<li><strong>Telnet</strong> – TCP port 23</li>
+</ul>
+<p>You’ve already seen that when a TCP connection is established, it follows a process called a three-way handshake. This process uses SYN and ACK bits in the code bits in the TCP segment’s Sequence and Acknowledgment Number fields. Figure 1.24 below illustrates an example of this process during a TCP operation:</p>
+
+<p><strong>FIG 1.24 – TCP operation</strong></p>
+<p>In the example depicted above, Host A tries to establish a TCP connection with Host B. Host A sends a segment with the SYN bit set, letting the other device know that it wants to synchronize. The segment includes the initial sequence number 5 that Host A is using. Host B accepts, establishes a session, and sends back a segment with the SYN bit set. Host B also sets the ACK bit to acknowledge that it has received the initial segment sent by Host A.</p>
+<p>The acknowledgment number represents the next segment it expects to receive, 6 in this example (this is also called an expectational acknowledgment). The new segment includes the initial sequence number from Host B, 14 in this example. Host A replies with an ACK segment that contains sequence number 6, because this is what Host B is expecting, and acknowledgment number 15, informing Host B that it can send the next segment. This concludes the TCP session establishment phase.</p>
+<p>The window size informs the remote host about the number of bytes a device will accept before it must send an acknowledgment. The window sizes may not match on the two endpoints. Host A has a window size of 2, and Host B has a window size of 3. When Host A sends data, it can send 3 bytes before waiting for an acknowledgment; however, Host B can send only 2 bytes before receiving an ACK.</p>
+<p>NOTE: The window size specifies the number of bytes (octets) a device will accept; not the number of segments.</p>
+<p>After all the data is sent between the two hosts, the session can be closed. Host A sends a segment with the FIN bit set, letting Host B know that it wants to end the TCP session. The segment includes the sequence number Host B is using at that specific moment (341 in this example). Host B acknowledges the request and sets the ACK bit to acknowledgment number 342 to confirm that it received number 341.</p>
+<p>The segment also includes the current sequence number of Host B (125 in this example). Host B sends a new segment with the FIN bit set, announcing that the application it is running also requests to close the session. The last step before the session is closed is Host A sending an ACK segment number 126 to confirm that it received number 125 from Host B.</p>
+<h3><span id="TCPIP_InternetNetwork_Layer">TCP/IP Internet/Network Layer</span></h3>
+<p>The Internet layer in the TCP/IP model corresponds to OSI layer 3 (network layer). This layer is responsible for routing data, including addressing and packet format, and uses the following protocols:</p>
+<ul>
+<li><strong>IP (Internet Protocol)</strong> – This connectionless protocol offers the best-effort delivery of packets in the network. It relies on transport layer protocols like TCP to ensure a reliable connection. IP addresses are assigned to each network device or interface in the network. IP comes in two flavors: IPv4 and IPv6. These aspects will be covered in detail later in this book.</li>
+<li><strong>ICMP (Internet Control Message Protocol) </strong>– This protocol sends messages and error reports through the network. The most-used application that relies on ICMP is ping, which sends an ICMP echo message to the destination and expects an ICMP echo reply to ensure that the destination can be reached and to give information about the delay between the two endpoints. (We will look at ICMP in more detail shortly.)</li>
+</ul>
+<p>As mentioned, IP packets can be either in IPv4 format or in IPv6 format. An IPv4 packet, as defined in RFC 791, contains the following fields:</p>
+
+<p><strong>FIG 1.25 – IPv4 packet fields</strong></p>
+<p>If you want to read up on the individual fields in detail, then please refer to the Requests for Comments (RFCs) at https://www.rfc-editor.org/. We will mention some of these fields below and later in this guide as they become relevant, but it’s unlikely that you would be tested on the individual fields at the CCNA level. Having said this, I strongly recommend that you take a Wireshark Certified Network Analyst (WCNA) course at some point if you want to be a successful network engineer. The course will give you a very thorough understanding of TCP and the mechanics of internetworking, as well as make you much more confident in your day-to-day role.</p>
+<p>The Version field in the packet identifies the IP version; for IPv4, the value would be 0100, which is 4 in binary, and for IPv6, it would be 0110, which is 6 in binary. We will cover binary math in the IP addressing chapter.</p>
+<p>The Time to Live (TTL) field is populated with a number when the packet is generated. Pings, for example, start at 255 and decrement down. As the packet traverses each router, the number will decrement by one. If the number reaches zero, the packet will be discarded to prevent packets from endlessly circulating in the network. Note that this facility is unavailable for Ethernet frames, but other mechanisms have been created to address this problem. We will revisit TTL later.</p>
+<p>The Protocol field is populated with the protocol number. There are a number of protocols available, such as EIGRP (88), OSPF (89), UDP (17), and TCP (6), and we will discuss some of these protocols as we progress through this guide.</p>
+<p>An IPv6 packet contains the following fields:</p>
+
+<p><strong>FIG 1.26 – IPv6 packet fields</strong></p>
+<p>The size of an IPv6 address is four times the size of an IPv4 address (i.e., an IPv4 address is 32 bits, while an IPv6 address is 128 bits). More details will be provided on this subject in the IPv6 addressing chapter.</p>
+<h3><span id="TCPIP_Network_Access_Layer">TCP/IP Network Access Layer</span></h3>
+<p>The network access layer maps to the OSI data link layer and physical layer, and it has the same functionality as those layers.</p>
+<p>A common protocol used at the network access layer is ARP (Address Resolution Protocol), which requests the MAC addresses of a host with a known IP address. This works by sending a broadcast message to all the hosts on a subnet and asking for the MAC address of the host that has the IP address. The host with that IP address responds with its MAC address and the sender caches this in its memory for a period of time. Once the MAC address is known, it is used as a destination address in the frames sent in that specific direction.</p>
+<h3><span id="TCPIP_Services">TCP/IP Services</span></h3>
+<p>If you have had any interest in computer networking, you may have already heard of some of the services to follow. Most novice users don’t know (or care) that they all come under the umbrella of TCP/IP. We’ll be covering many of these in greater detail throughout the book, but for now, here is a brief overview.</p>
+<h3><span id="File_Transfer_Protocol">File Transfer Protocol</span></h3>
+<p>FTP is an application layer protocol that is used to reliably transfer files from a source to a destination. To ensure reliability, FTP uses TCP as its transport protocol.</p>
+<p>On Cisco devices, the debug ip ftp command can be used to debug FTP traffic that is destined to the device. Debugs are Cisco troubleshooting tools that display information that you can use to troubleshoot various protocols and services. We will discuss debugs later in this guide because they will be an important part of your troubleshooting tool bag, but they must be used with caution.</p>
+<p>FTP uses TCP ports 20 and 21. A control connection is made from the client to the FTP server on port 21. A second data connection is then made from either the FTP server on port 20 (in active FTP) or a random port on the client to port 20 on the FTP server (in passive FTP).</p>
+<h3><span id="Trivial_File_Transfer_Protocol">Trivial File Transfer Protocol</span></h3>
+<p>TFTP provides an alternative file transfer method that is faster but less reliable than FTP. TFTP uses UDP as its transport protocol and operates on port 69. When using TFTP, you need to specify the exact directory the file is located in because you cannot list the directories.</p>
+<p>TFTP can be used to backup and copy router configurations. You will need a TFTP client (which can be the router) and a TFTP service (which can be either another router that has the files stored locally or a server in the network) to accomplish this task. If you are using a server, you need to have TFTP server software installed on the client.</p>
+<p>We will demonstrate TFTP again later.</p>
+<h3><span id="Simple_Mail_Transfer_Protocol">Simple Mail Transfer Protocol</span></h3>
+<p>SMTP defines how e-mails are sent to the e-mail server from the client, and it uses TCP as its transport protocol. E-mails can be retrieved from an SMTP server in different ways depending on the e-mail client. One of the protocols for e-mail retrieval is POP3, and another popular e-mail retrieval protocol is IMAP.</p>
+<h3><span id="Hypertext_Transfer_Protocol">Hypertext Transfer Protocol</span></h3>
+<p>HTTP is found in the application layer, and it is used to communicate between web servers and clients on TCP port 80. For secure communication, HTTP can be encrypted using Secure Sockets Layer (SSL) or Transport Layer Security (TLS). This secure HTTP (HTTPS) uses TCP port 443.</p>
+<p>A Cisco router or switch can be connected to via a web browser. You can debug HTTP traffic destined for a Cisco device with the debug ip http command.</p>
+<h3><span id="Telnet">Telnet</span></h3>
+<p>Telnet is used for remote connections to network devices, and it operates on TCP port 23. Traffic sent using Telnet is in clear text, therefore, it is insecure. A more secure method to remotely access devices is Secure Shell (SSH).</p>
+<p><strong>Troubleshooting Tip:</strong> Telnet is a good utility to validate that the seven layers of the OSI model are working correctly.</p>
+<p>To set up Telnet on a Cisco router, a password should be set on virtual terminal (VTY) lines. To disconnect from a Telnet session, simply type exit or disconnect. To break out of a Telnet session, you can press Ctrl+Shift+6 together, release, and then press x to quit.</p>
+<p>On Cisco devices, you can debug Telnet using the debug telnet command. We will use the telnet command several times throughout this guide; however, here is some output from the debug telnet command for a router receiving an incoming Telnet request:</p>
+<p><em>R2#debug telnet</em></p>
+<p>Incoming Telnet debugging is on</p>
+<p><em>R2#</em></p>
+<p><em>*Mar&nbsp; 1 00:58:58.035: Telnet98: 1 1 251 1</em></p>
+<p><em>*Mar&nbsp; 1 00:58:58.039: TCP98: Telnet sent WILL ECHO (1)</em></p>
+<p><em>*Mar&nbsp; 1 00:58:58.039: Telnet98: 2 2 251 3</em></p>
+<p><em>*Mar&nbsp; 1 00:58:58.039: TCP98: Telnet sent WILL SUPPRESS-GA (3)</em></p>
+<h3><span id="Secure_Shell">Secure Shell</span></h3>
+<p>SSH is a cryptographic network protocol used for secure remote command-line login. SSH is often used for remote command executions, such as configuring routers and switches. Your first introduction to SSH may well be using a Telnet/SSH client program such as PuTTY, which enables you to remotely connect to network devices.</p>
+<p>We will be looking at remotely connecting to network devices using SSH and Telnet (via PuTTY) later in this book.</p>
+<h4><span id="SSH_File_Transfer_Protocol">SSH File Transfer Protocol</span></h4>
+<p>SFTP was devised by the Internet Engineering Task Force (IETF). SFTP provides the same service as FTP (i.e., file access, transfer, and management) but does so securely. The underlying security features and the fact that it can work with an SSH connection make it preferable in secure environments. SFTP is packaged with SSH but is usually integrated into graphical FTP tools such as FileZilla.</p>
+
+<p><strong>FIG 1.27 – SFTP connection manager</strong></p>
+<p>SFTP presumes that it is being run over a secure channel (such as SSH), that the client has been authenticated by the server, and that the identity of the client is available to the protocol. It uses port 22 (as does SSH).</p>
+<h4><span id="Secure_Sockets_Layer_and_Transport_Layer_Security">Secure Sockets Layer and Transport Layer Security</span></h4>
+<p>Both SSL and its replacement, TLS, are application layer cryptographic protocols created to provide secure communication over a computer network. SSL was created by Netscape to provide HTTPS access for its Navigator browser.</p>
+<p>TLS is an IETF standard protocol based on SSL, and currently, version 1.3 is in the draft mode. TLS ensures privacy between application users (such as e-mails) by preventing tampering or eavesdropping.</p>
+<p>The server and the client authenticate each other using the TLS Handshake Protocol, which then allows them to negotiate an encryption algorithm and cryptographic keys before the exchange of data. Typically, the client remains unauthenticated, and only the server is authenticated and its identity ensured.</p>
+<h3><span id="Internet_Control_Message_Protocol">Internet Control Message Protocol</span></h3>
+<p>As mentioned earlier, the ping utility uses ICMP to test network connectivity by sending ICMP messages. In some cases, it has actually been used by hackers to attack networks by sending lots of ICMP traffic and exhausting network resources. This is called a denial-of-service (DoS) attack.</p>
+<p>ICMP is defined in RFC 792, and it is used to detect and report problems in an IP network. It is also used for diagnostic and control purposes. When there is an error in an IP message in the network, the IP packet is dropped, and an ICMP error message is sent back to the sender.</p>
+<p>The most common use of ICMP is the ping command to test connectivity between two devices. When a ping command is issued, an ICMP echo request is sent to the destination. If the packet makes it successfully to the destination, the destination replies with an ICMP echo reply. Other information can be derived from a ping, such as the round-trip time (the amount of time it takes for information to get to the device and back). An example of a ping command and output on a Windows machine is shown below:</p>
+<p><em>C:\] ping cisco.com</em></p>
+<p><em>Pinging cisco.com [72.163.4.161] with 32 bytes of data:</em></p>
+<p><em>Reply from 72.163.4.161: bytes=32 time=147ms TTL=240</em></p>
+<p><em>Reply from 72.163.4.161: bytes=32 time=153ms TTL=240</em></p>
+<p><em>Reply from 72.163.4.161: bytes=32 time=148ms TTL=240</em></p>
+<p><em>Reply from 72.163.4.161: bytes=32 time=151ms TTL=240</em></p>
+<p><em>Ping statistics for 72.163.4.161:</em></p>
+<p><em>Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),</em></p>
+<p><em>Approximate round-trip times in milli-seconds:</em></p>
+<p><em>Minimum = 147ms, Maximum = 153ms, Average = 149ms</em></p>
+<p>Let’s examine the ping output in more detail. You can see that the reply is 32 bytes long, it takes about 150 ms, and the Time to Live is 240. TTL is the value that tells you how many hops (or devices) are between the source and the destination devices. When a packet is sent, it has a TTL of 255. This number is decreased by 1 as the packet goes from one device to another. If the TTL gets to 0, then the packet is dropped, and an ICMP error message is sent. In this case, the TTL is 240, which tells you that you are 15 hops away from cisco.com.</p>
+<table>
+<tbody>
+<tr>
+
+<td width="516">The TTL value varies according to the destination OS:<br>
+Windows = 128<br>
+Linux, iOS = 64<br>
+Cisco = 255<br>
+Solaris = 255</td>
+</tr>
+</tbody>
+</table>
+<p>Cisco routers have an extended ping feature that allows you to specify some ICMP and IP parameters in the ping. You can access this feature by typing ping and pressing Enter, as shown below:</p>
+<p><em>Router#ping – <strong>Press Enter here</strong></em></p>
+<p><em>Protocol [ip]: – <strong>Press Enter here</strong></em></p>
+<p><em>Target IP address: 172.16.1.1</em></p>
+<p><em>Repeat count [5]:</em></p>
+<p><em>Datagram size [100]: 1200</em></p>
+<p><em>Timeout in seconds [2]:</em></p>
+<p><em>Extended commands [n]: yes</em></p>
+<p><em>Source address:</em></p>
+<p><em>Type of service [0]:</em></p>
+<p><em>Set DF bit in IP header? [no]: yes</em></p>
+<p><em>Data pattern [0xABCD]:</em></p>
+<p><em>Loose, Strict, Record, Timestamp, Verbose[none]:</em></p>
+<p><em>Type escape sequence to abort.</em></p>
+<p><em>Sending 5, 1000-byte ICMP Echos to 172.16.1.1, timeout is 2 seconds:</em></p>
+<p><em>U U U U U</em></p>
+<p><em>Success rate is 0% percent, round-trip min/avg/max = 4/6/12 ms</em></p>
+<p>Cisco uses several notations to represent the response the ping packet receives:</p>
+<ul>
+<li><strong>! –</strong> Successful reply</li>
+<li><strong>. –</strong> Request timed out</li>
+<li><strong>U –</strong> Destination unreachable</li>
+<li><strong>N –</strong> Network unreachable</li>
+<li><strong>P –</strong> Protocol unreachable</li>
+<li><strong>Q –</strong> Source quench message</li>
+<li><strong>M –</strong> Could not fragment</li>
+<li><strong>? –</strong> Unknown packet type</li>
+</ul>
+<p>You can interrupt a ping session by pressing the <em>Ctrl+Shift+6</em> keys together.</p>
+<p>ICMP packet types are defined in RFC 1700. Learning all of the code numbers and names is outside the scope of the CCNA syllabus (check before you take your exam though).</p>
+<p>You can debug ICMP traffic sourced from or destined to a Cisco router with the debug ip icmp command.</p>
+<h3><span id="Traceroute">Traceroute</span></h3>
+<p>Traceroute is another widely utilized ICMP utility that is used to determine the path that a packet will take to reach its destination. Traceroute works by sending UDP packets (or ICMP packets) with a TTL of 1 and then increasing the TTL for the next packet until the entire path from source to destination is determined. At each hop, the TTL is decremented, and if it gets to 0, an ICMP error (time exceeded) message is sent back to the sender. The sender of these time-exceeded packets is displayed to the user (the hops taken to reach the destination).</p>
+<p>Cisco routers (and all other UNIX-based devices) use the traceroute command, whereas Windows PCs use tracert. Please remember this difference for the exam.</p>
+<p><em>C:\&gt;tracert cisco.com</em></p>
+<p><em>Tracing route to cisco.com [72.163.4.161]</em></p>
+<p><em>over a maximum of 30 hops:</em></p>
+<p><em>1&nbsp;&nbsp;&nbsp; [1 ms&nbsp;&nbsp;&nbsp; [1 ms&nbsp;&nbsp;&nbsp; [1 ms&nbsp; 192.168.10.1</em></p>
+<p><em>2&nbsp;&nbsp;&nbsp; 59 ms&nbsp;&nbsp;&nbsp; 21 ms&nbsp;&nbsp;&nbsp;&nbsp; 9 ms&nbsp; cm-80.111.156.001.ntlworld.ie [80.111.156.1]</em></p>
+<p><em>3&nbsp;&nbsp;&nbsp; 11 ms&nbsp;&nbsp;&nbsp;&nbsp; 8 ms&nbsp;&nbsp;&nbsp; 10 ms&nbsp; cm-80.111.156.001.ntlworld.ie [80.111.156.1]</em></p>
+<p><em>4&nbsp;&nbsp;&nbsp;&nbsp; 8 ms&nbsp;&nbsp;&nbsp;&nbsp; 8 ms&nbsp;&nbsp;&nbsp; 11 ms&nbsp; 188-141-127-1.dynamic.upc.ie [188.141.127.1]</em></p>
+<p><em>5&nbsp;&nbsp;&nbsp; 87 ms&nbsp;&nbsp;&nbsp; 86 ms&nbsp;&nbsp;&nbsp; 86 ms&nbsp; 84.116.238.54</em></p>
+<p><em>6&nbsp;&nbsp;&nbsp; 89 ms&nbsp;&nbsp;&nbsp; 85 ms&nbsp;&nbsp;&nbsp; 89 ms&nbsp; 84.116.137.74</em></p>
+<p><em>7&nbsp;&nbsp; 148 ms&nbsp;&nbsp; 132 ms&nbsp;&nbsp; 136 ms&nbsp; 84.116.137.34</em></p>
+<p><em>8&nbsp;&nbsp;&nbsp; 90 ms&nbsp;&nbsp;&nbsp; 87 ms&nbsp;&nbsp;&nbsp; 85 ms&nbsp; 84.116.135.98</em></p>
+<p><em>9&nbsp;&nbsp;&nbsp; 86 ms&nbsp;&nbsp;&nbsp; 91 ms&nbsp;&nbsp;&nbsp; 85 ms&nbsp; xe-0-0-0 [204.148.20.177]</em></p>
+<p><em>10&nbsp;&nbsp; 149 ms&nbsp;&nbsp; 152 ms&nbsp;&nbsp; 148 ms&nbsp; 0.ae2.XT3.DFW9.ALTER.NET [140.222.225.55]</em></p>
+<p><em>11&nbsp;&nbsp; 153 ms&nbsp;&nbsp; 149 ms&nbsp;&nbsp; 152 ms&nbsp; TenGigE0-4-0-0.GW15.DFW9.ALTER.NET [152.63.98.10]</em></p>
+<p><em>12&nbsp;&nbsp; 149 ms&nbsp;&nbsp; 147 ms&nbsp;&nbsp; 149 ms&nbsp; cisco-gw.customer.alter.net [157.130.134.190]</em></p>
+<p><em>13&nbsp;&nbsp;&nbsp;&nbsp; *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *&nbsp;&nbsp;&nbsp;&nbsp; Request timed out.</em></p>
+<p><em>14&nbsp;&nbsp; 149 ms&nbsp;&nbsp; 148 ms&nbsp;&nbsp; 150 ms&nbsp; rcdn9-cd2-dmzdcc-gw2-por1.cisco.com [72.163.0.182]</em></p>
+<p><em>15&nbsp;&nbsp; 149 ms&nbsp;&nbsp; 149 ms&nbsp;&nbsp; 148 ms&nbsp; rcdn9-16b-dcz05n-gw2-por2.cisco.com [72.163.2.110]</em></p>
+<p><em>16&nbsp;&nbsp; 151 ms&nbsp;&nbsp; 148 ms&nbsp;&nbsp; 149 ms&nbsp; www1.cisco.com [72.163.4.161]</em></p>
+<p><em>Trace complete.</em></p>
+<p>The fields of the traceroute output are similar to the fields of the ping response shown earlier.</p>
+<h3><span id="Address_Resolution_Protocol">Address Resolution Protocol</span></h3>
+<p>Different addressing formats are used to identify network hosts at various layers of the OSI model, including URLs, NICs, and device interfaces. At layer 3, the IP address is used to identify hosts. To communicate with hosts in the same network, the IP address needs to be mapped to the layer 2 address of the hosts. On Ethernet networks, the layer 2 addresses are known as MAC addresses. The protocol used to determine MAC addresses from IP addresses is the Address Resolution Protocol (ARP).</p>
+<p>When a host needs to communicate with another host, it sends an ARP request for the MAC address of the host. This request is a broadcast, and all hosts in the network segment receive it. The host with the relevant IP address responds with its MAC address and layer 2 communication begins.</p>
+
+<p><strong>FIG 1.28 – A host broadcasts for another host’s MAC address</strong></p>
+<p>You can debug ARP with the<em> debug arp</em> command.</p>
+<h3><span id="Mini-lab_-_Checking_the_ARP_Cache">Mini-lab – Checking the ARP Cache</span></h3>
+<p>If you have no experience configuring Cisco routers, then feel free to come back to this lab later because we have to add interface addressing. For a simple check of the ARP process, you can connect two routers together with a switch or directly with a crossover cable as per Figure 1.29 below. Add the IP addresses (of course, your MAC addresses will differ from mine so issue a show interface X command to see what your MAC is, as shown below).</p>
+<p>Here is the configuration I added to Router 1. On Router 2, change the IP address to 192.168.1.2 and configure the hostname R2.</p>
+<p><em>Router#conf t</em></p>
+<p><em>Router(config)#hostname R1</em></p>
+<p><em>R1(config)#int f0/0</em></p>
+<p><em>R1(config-if)#ip address 192.168.1.1 255.255.255.0</em></p>
+<p><em>R1(config-if)#no shut</em></p>
+<p>On Router 1, I can issue a show arp command to check the ARP cache. (Note that the MAC address starts with c201 for R1 and c202 for R2.) I actually used GNS3 for this lab because it’s much easier to access, and it works really well with Wireshark, which is free. A device will store its own ARP entry for a connected interface, but in the Age column there will be a “–” which indicates that it will never time out.</p>
+<p><em>R1#show arp</em></p>
+<p><em>Protocol&nbsp; Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Age (min)&nbsp; Hardware Addr&nbsp;&nbsp; Type&nbsp;&nbsp; Interface</em></p>
+<p><em>Internet&nbsp; 192.168.1.1&nbsp; –&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>c201.07f6.0000</strong>&nbsp; ARPA&nbsp;&nbsp; Fa0/0</em></p>
+<p><em>Router 1 Fast Ethernet 0/0 interface has MAC address c201.07f6.0000, which can be seen above and below. I have added 192.168.1.1 as an IP address.</em></p>
+<p><em>R1#show int f0/0</em></p>
+<p><em>FastEthernet0/0 is up, line protocol is up</em></p>
+<p><em>Hardware is Gt96k FE, address is <strong>c201.07f6.0000</strong> (bia c201.07f6.0000)</em></p>
+<p><em>Internet address is 192.168.1.1/24</em></p>
+<p>Router 2 has the MAC address c202.07f6.000 and the IP address 192.168.1.2 as shown below:</p>
+<p><em>R2#show int f0/0</em></p>
+<p><em>FastEthernet0/0 is up, line protocol is up</em></p>
+<p><em>Hardware is Gt96k FE, address is <strong>c202.07f6.0000</strong> (bia c202.07f6.0000)</em></p>
+<p><em>Internet address is 192.168.1.2/24</em></p>
+<p>If R1 wants to ping R2, it must establish the layer 2 address (MAC) to encapsulate the packet correctly. When I issue the ping 192.168.1.2 command, R1 will ARP for the device that is configured with this IP address. The ARP packet will be sent BEFORE the ping, which is why you will often see the first ping fail. Bear in mind that several devices could be on this segment of the network.</p>
+<p><strong>FIG 1.29 – ARP broadcast</strong></p>
+<p>Figure 1.30 below shows a packet capture of the ARP broadcast using Wireshark. You will see that the R1 MAC address starting with source c201 is set as the source MAC. The Destination field is unknown, so it is set to be a broadcast, which in hexadecimal is all Fs.</p>
+<p><strong>FIG 1.30 – ARP packet capture</strong></p>
+<p>If you examine the ARP packet, you will see the following:</p>
+<p><strong>FIG 1.31 – ARP packet with destination MAC field unpopulated</strong></p>
+<p>The target MAC is a broadcast, but the sending host knows the target IP address (because I typed it in at the command prompt), so the reply is unicast.</p>
+<p><strong>FIG 1.32 – ARP response</strong></p>
+<p>You can also see the host 192.168.1.2 reply that this IP address is using MAC c202.07f6.0000:</p>
+<p><strong>FIG 1.33 – ARP response packet capture</strong></p>
+<p>And in particular, the ARP fields:</p>
+<p><strong>FIG 1.34 – Sender MAC address field is populated</strong></p>
+<p>Finally, you can see that the ARP table on R1 is now populated. If you need to send packets to R2 again, there will be no need to ARP for the MAC Address. The ARP table will eventually clear if no traffic is sent to R2.</p>
+<p><em>R1#show arp</em></p>
+<p><em>Protocol Address&nbsp;&nbsp;&nbsp;&nbsp; Age(min) Hardware Addr&nbsp;&nbsp; Type&nbsp;&nbsp; Interface</em></p>
+<p><em>Internet 192.168.1.1 –&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c201.07f6.0000&nbsp; ARPA&nbsp;&nbsp; FastEthernet0/0</em></p>
+<p><em>Internet 192.168.1.2 15&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c202.07f6.0000&nbsp; ARPA&nbsp;&nbsp; FastEthernet0/0</em></p>
+<p>It’s worth noting the Age field, which indicates how long the entry has been known. The MAC address for 192.168.1.2 was learned 15 minutes ago, according to the output above. If the entry was learned less than one minute ago, the entry would be 0. The dash after 192.168.1.1 indicates a directly attached entry, so it won’t be flushed. These seemingly insignificant details are very important to note for the exam.</p>
+<p>If for any reason, you wanted to flush the ARP table on the router, you would issue the clear arp command. If you want to examine the ARP cache on a Windows PC, the command is arp –a. Bear in mind that network hosts will usually store the IP address and MAC address for the default gateway, which it will use to reach any device on another segment or network.</p>
+[END OF MINI-LAB]
+<h3><span id="Proxy_ARP">Proxy ARP</span></h3>
+<p>Proxy ARP is a mechanism for a router to send a reply (on behalf of another device but containing its own MAC address). Because routers do not forward broadcasts, an ARP request from one segment to another segment cannot reach the intended recipient. To facilitate communication, the router responds with its own MAC address, and then forwards the packet to the correct destination when it receives it. This mechanism is defined in RFC 1027.</p>
+<p><strong>FIG 1.35 – Proxy ARP in action</strong></p>
+<p>You may hear Proxy ARP referred to as promiscuous ARP in some circles.</p>
+<p>Proxy ARP is turned on in Cisco routers by default. It can be turned on/off using the [no] ip proxy arp command. The function of Proxy ARP is summarized above in Figure 1.35. The router responds to the ARP request with the MAC address nearest to the requesting host. This allows the sending host to encapsulate the layer 2 Destination field in the packet, and the router will then correctly address the packet before sending it to the destination host. Note that the sending host’s ARP cache shows the router MAC address mapping to the destination host’s IP address 10.0.0.1.</p>
+<p>Proxy ARP is a hot exam topic, so let’s go into some more detail.</p>
+<h3><span id="Mini-lab_-_Discovering_Proxy_ARP">Mini-lab – Discovering Proxy ARP</span></h3>
+<p>Figure 1.36 below shows a network with two hosts connecting to R2. Because I’ve used GNS3 for this example, it was quicker, in fact, to use two other routers as hosts (PCs). You can see that each interface has its own IP address and MAC address.</p>
+<p><strong>FIG 1.36 – Mini-lab: Proxy ARP</strong></p>
+<p>There are two networks here—192.168.1.0/24 and 172.16.1.0/16. When R1 wants to send a packet to R3, it needs to ARP for the correct MAC address for R3 so that it can encapsulate it correctly. The layer 3 address is known but not the layer 2 address. The layer 3 address can never change as the packet traverses the network, but the layer 2 address will change from host to host.</p>
+<table>
+<tbody>
+<tr>
+<td width="528">The only time you will see the layer 3 address change is if NAT is in place. You will learn how NAT works in a later chapter.</td>
+</tr>
+</tbody>
+</table>
+<p>Please add all the IP addresses as per Figure 1.36, but you will also need to add some static routes. We don’t cover these until later, so feel free to come back to this lab after reading up on static routes and IP addressing.</p>
+<p>After adding the IP addresses, the static routes below need to be added to both R1 and R3 (you already know how to change the hostname from the previous configuration). You don’t need to add a static route to R2 because both 192 and 172 networks are attached (so R2 already knows where they both are).</p>
+<p><em>R1(config)#interface f0/0</em></p>
+<p><em>R1(config-if)#ip address 192.168.1.1 255.255.255.0</em></p>
+<p><em>R1(config-if)#no shut</em></p>
+<p><em>R1(config-if)#exit</em></p>
+<p><em>R1(config)#ip route 0.0.0.0 0.0.0.0 f0/0</em></p>
+<p><em>R2(config)#int fast0/0</em></p>
+<p><em>R2(config-if)#ip add 192.168.1.2 255.255.255.0</em></p>
+<p><em>R2(config-if)#no shut</em></p>
+<p><em>R2(config-if)#int fast 0/1</em></p>
+<p><em>R2(config-if)#ip add 172.16.1.1 255.255.0.0</em></p>
+<p><em>R2(config-if)#no shut</em></p>
+<p><em>R3(config)#int f0/0</em></p>
+<p><em>R3(config-if)#ip add 172.16.1.2 255.255.0.0</em></p>
+<p><em>R3(config-if)#no shut</em></p>
+<p><em>R3(config)#ip route 0.0.0.0 0.0.0.0 f0/1</em></p>
+<p>R1 has no ARP entry for 172.16.1.2, so it will need to broadcast for it:</p>
+<p><em>R1#show arp</em></p>
+<p><em>Protocol Address&nbsp;&nbsp;&nbsp;&nbsp; Age (min) Hardware Addr&nbsp; Type&nbsp;&nbsp; Interface</em></p>
+<p><em>Internet 192.168.1.1 –&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c201.06f1.0001 ARPA&nbsp;&nbsp; FastEthernet0/0</em></p>
+<p>If you issue a ping from R1 to reach 172.16.1.2, there will be a short delay due to the ARP broadcast and then a response. The delay causes the first few ping packets to fail due to a timeout, indicated by the exclamation point (!) in the example below. If you didn’t have the static route, R1 would have dropped the packet because there is no route to it, and routers don’t send broadcasts (by default).</p>
+<p><em>R1#ping 172.16.1.2</em></p>
+<p><em>Type escape sequence to abort.</em></p>
+<p><em>Sending 5, 100-byte ICMP Echos to 172.16.1.2, timeout is 2 seconds:</em></p>
+<p><em>…!!</em></p>
+<p><em>Success rate is 40 percent (2/5), round-trip min/avg/max = 40/46/52 ms</em></p>
+<p>R2 uses Proxy ARP and sends its own MAC address as the destination for R3. This allows R1 to address the packet and send it. R2 will then swap the destination MAC address for the correct one attached to the R3 interface.</p>
+<p>You can see the ARP request from R1 in the packet capture below. Item 9 is asking “Who has 172.16.1.2?” Enable Wireshark on GNS3, if you are using it, or on your home lab.</p>
+<p><strong>FIG 1.37 – ARP request</strong></p>
+<p>The Proxy ARP reply comes from R2, and you can see that the MAC address ends in 02, which belongs to the Fast Ethernet interface connecting R2 to R1.</p>
+<p><strong>FIG 1.38 – Proxy ARP response</strong></p>
+<p>You can see that the ARP cache on R1 now has an entry for 172.16.1.2, but the MAC address is for the interface connected on R2. The fact that R2 will swap this for the correct MAC address is transparent to R1.</p>
+<p><em>R1#show arp</em></p>
+<p><em>Protocol&nbsp; Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Age (min)&nbsp; Hardware Addr&nbsp;&nbsp; Type&nbsp;&nbsp; Interface</em></p>
+<p><em>Internet&nbsp; 172.16.1.2&nbsp;&nbsp; 11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c201.06f1.0002&nbsp; ARPA&nbsp;&nbsp; Fa0/0</em></p>
+<p><em>Internet&nbsp; 192.168.1.1&nbsp; –&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c201.06f1.0001&nbsp; ARPA&nbsp;&nbsp; Fa0/0</em></p>
+<p>One final point is that if you do this lab using GNS3, you might have to manually change the MAC addresses because GNS3 sometimes duplicates the same one. Here is how I did it on R3:</p>
+<p><em>R3(config)#int f0/1</em></p>
+<p><em>R3(config-if)#mac-address c201.06f1.0004</em></p>
+[END OF MINI-LAB]
+<p>As a packet traverses the network, the source and destination IP addresses will never change in the packet (unless NAT is in use, as Dario stated). The MAC address will have to change from hop to hop though. You can see an example of this in Figure 1.39 below:</p>
+<p><strong>FIG 1.39 – IP address never changes</strong></p>
+<p>This entire process is transparent to the hosts who view the connection, as shown in Figure 1.40 below:</p>
+<p><strong>FIG 1.40 – How the connection appears to hosts</strong></p>
+<p>If you see multiple IP addresses mapping to the same MAC address in your ARP cache, this indicates that Proxy ARP is in use. Please also bear in mind that you issue a <em>show arp</em> command on a router, but on Windows PCs, the command is arp -a.</p>
+<p>If you found the above configurations a little hard to follow, come back to them later when you have a bit more confidence and knowledge.</p>
+<h3><span id="Reverse_Address_Resolution_Protocol">Reverse Address Resolution Protocol</span></h3>
+<p>Reverse ARP (RARP) is the opposite of ARP in that it maps a known MAC address to an IP address. A typical use for this protocol is thin clients obtaining their IP addresses from servers when they are booting up. RARP has been replaced by Dynamic Host Configuration Protocol (DHCP), which can supply more than just an IP address (DHCP will be covered in detail later in this book).</p>
+<h3><span id="Gratuitous_ARP">Gratuitous ARP</span></h3>
+<p>On occasion (e.g., after the link goes up or the interface gets enabled), a device might issue an ARP request with its own IP address as the target address. This type of ARP request is known as Gratuitous ARP (GARP).</p>
+<p>GARP is used if a device wants to check whether a certain IP address is already in use in the network. If a response is received, then the IP address is in use. GARP is also used by HSRP (which will be covered later) when a router on another subnet takes over as an active router.</p>
+<p>You can see a GARP packet capture below in Figure 1.41 (the image is copyrighted by Wireshark.org):</p>
+<p><strong>FIG 1.41 – GARP packet capture</strong></p>
+<h3><span id="Simple_Network_Management_Protocol">Simple Network Management Protocol</span></h3>
+<p>SNMP is a management protocol that allows a management station to read and write specific values for different parameters of a network device. A network device can also send messages (called traps) to a management station to inform it about events such as high CPU usage, an interface fault, or other issues. You can debug SNMP traffic with the <em>debug snmp</em> command.</p>
+<p>SNMP is an important CCNA exam topic that will be covered in more detail later in this manual.</p>
+<h3><span id="Domain_Name_System">Domain Name System</span></h3>
+<p>You’ve already learned that ARP resolves MAC addresses mapped to IP addresses. The Domain Name System (DNS) protocol uses UDP to resolve the hostnames mapped to IP addresses. This allows you to enter www.howtonetwork.com, rather than an IP address, in a Web browser. Every Internet Service Provider (ISP) has its own DNS servers that list the most common hostnames and their corresponding IP addresses. If the IP address of the hostname you want is not there, then the ISP will pass the request on to a DNS root server.</p>
+<table>
+<tbody>
+<tr>
+<td width="510">DNS uses UDP only for the first DNS Query sent by the client. If it doesn’t receive a response from a DNS server, it must retransmit the DNS Query using TCP. Furthermore, communication between DNS servers (Zone Transfer) uses TCP because it is necessary to maintain a consistent DNS database between them.</td>
+</tr>
+</tbody>
+</table>
+<p>If you are using DHCP on your network, you are usually allocated an IP address for your nearest DNS server. If you are using a home network, the IP address will often be that of your router, which then passes the DNS Query on to your hosting company.</p>
+<p><strong>FIG 1.42 – ipconfig /all output</strong></p>
+<p>You can configure a hostname mapped to an IP address on a router with the command <em>ip host [name] [ip address]</em>. See the mini-lab below for more information. We will cover DNS and DHCP in more detail later in this guide.</p>
+<h3><span id="Mini-lab_-_Pinging_Hostnames">Mini-lab – Pinging Hostnames</span></h3>
+<p>As hostnames are much easier to remember than a long list of IP addresses, mapping a hostname to an IP address can be accomplished by using the hostname facility. Please add the IP addresses as per Figure 1.43 below (you learned how to do this in the earlier mini-labs). In this case, you won’t need any static routes because the network is directly connected.</p>
+<p><strong>FIG 1.43 – Mini-lab: Pinging hostnames</strong></p>
+<p>Add a hostname to the IP address mapping on Router A:</p>
+<p><em>RouterA(config)#ip host RouterB 192.168.1.2</em></p>
+<p>You can then ping the hostname:</p>
+<p><em>RouterA#ping routerb ï <strong>Not case sensitive</strong></em></p>
+<p><em>Type escape sequence to abort.</em></p>
+<p><em>Sending 5, 100-byte ICMP Echos to 192.168.1.2, timeout is 2 seconds:</em><br>
+<em>!!!!!</em></p>
+<p><em>Success rate is 100 percent (5/5), round-trip min/avg/max = 32/32/32 ms</em></p>
+[END OF MINI-LAB]
+<p>You can specify one or more servers to act as DNS servers to resolve IP addresses mapped to hostnames. To do this, you need to use the<em> ip name-server [server-address 1] [server-address 2]</em> command. Type the command below on Router A:</p>
+<p><em>RouterA(config)#ip name-server 192.168.1.1 172.16.1.1</em></p>
+<p>One problem you will no doubt encounter is the fact that routers automatically try to resolve an entry to a hostname if it is not an IOS command. If the router does not know what the hostname is, it tries to translate it. Type out the following on your router:</p>
+<p><em>RouterA#tggt</em></p>
+<p><em>Translating tggt…domain server (255.255.255.255) ï <strong>Broadcast packet</strong></em></p>
+<p><em>Translating tggt…domain server (255.255.255.255)</em></p>
+<p><em>% Unknown command or computer name, or unable to find computer address</em></p>
+<p><em>RouterA#</em></p>
+<p>Your output may differ depending on your IOS or whether you are using Packet Tracer or GNS3. This can be very frustrating because you have to wait for several seconds while the router tries to resolve the hostname. You can disable name resolution using the no ip domain-lookup command:</p>
+<p><em>RouterA#config terminal</em></p>
+<p><em>RouterA(config)#no ip domain-lookup</em></p>
+<p><em>RouterA(config)#^z</em></p>
+<p><em>RouterA#tggt</em></p>
+<p><em>Translating tggt</em></p>
+<p><em>% Unknown command or computer name, or unable to find computer address</em></p>
+<p><em>RouterA#</em></p>
+<p>Your IOS release may already have the <em>no ip domain-lookup</em> command configured by default. The output of a show run command on my router shows which commands are on by default:</p>
+<p><em>RouterA#sh run</em></p>
+<p><em>Building configuration…</em></p>
+<p><em>Current configuration: 951 bytes</em></p>
+<p><em>!</em></p>
+<p><em>version 15.1</em></p>
+<p><em>service timestamps debug datetime msec</em></p>
+<p><em>service timestamps log datetime msec</em></p>
+<p><em>no service password-encryption</em></p>
+<p><em>!</em></p>
+<p><em>hostname R1</em></p>
+<p><em>!</em></p>
+<p><em>boot-start-marker</em></p>
+<p><em>boot-end-marker</em></p>
+<p><em>!</em></p>
+<p><em>no aaa new-model</em></p>
+<p><em>memory-size iomem 5</em></p>
+<p><em>ip cef</em></p>
+<p><em>!</em></p>
+<p><em><strong>no ip domain lookup</strong></em></p>
+<h4><span id="Router_as_a_DNS_Client">Router as a DNS Client</span></h4>
+<p>From the router command prompt, you can enter DNS servers and use fully qualified domain names (FQDN). Let’s add a public DNS server to the IOS and ping a website by name. You will need access to a public DNS server to get this to work, but please do type the commands out regardless.</p>
+<p><em>Router(config)#ip name-server 4.2.2.2</em></p>
+<p><em>Router(config)#exit</em></p>
+<p><em>Router#ping www.cisco.com</em></p>
+<p><em>Translating www.cisco.com;</em></p>
+<p><em>% Unrecognized host or address, or protocol not running</em></p>
+<p>Next, tell the router to use DNS (remember, you disabled it a few outputs ago) by enabling domain-lookups:</p>
+<p><em>Router(config)#ip domain-lookup</em></p>
+<p><em>Router#ping www.cisco.com</em></p>
+<p><em>Translating www.cisco.com;…domain server (4.2.2.2) [OK]</em></p>
+<p><em>Type escape sequence to abort.</em></p>
+<p><em>Sending 5, 100-byte ICMP Echos to 198.133.219.25, timeout is 2 seconds:</em></p>
+<p><em>!!!!!</em></p>
+<p><em>Success rate is 100 percent (5/5)</em></p>
+<p>If you look closer at the output above, you can see that the router queried the DNS server at 4.2.2.2, and it responded back with the IP address 198.133.219.25. You could, of course, enter your private DNS servers, and you would be able to ping your internal names from your network equipment. This is only for internal network management (the management plane). In the next section, we’ll look at using IOS for hosting DNS solutions.</p>
+<h4><span id="Router_as_a_DNS_Proxy">Router as a DNS Proxy</span></h4>
+<p>There are occasions where your router provides DHCP services, and it would make life easier if that same router could forward DNS services too. Well, it can! Let’s take a look at how to do that. Just like above, you have to tell the router where to find a DNS server and enable the router to provide a DNS service:</p>
+<p><em>Router(config)#ip name-server 4.2.2.2</em></p>
+<p><em>Router#ping www.howtonetwork.com</em></p>
+<p><em>Translating www.howtonetwork.com</em></p>
+<p><em>% Unrecognized host or address, or protocol not running.</em></p>
+<p><em>Router(config)#ip domain-lookup</em></p>
+<p>Next, enable DNS on the router with the following command:</p>
+<p><em>Router(config)#ip dns server</em></p>
+<p>That is it! Now clients can use the router as a DNS server. Figure 1.44 below helps explain this process. But what if you need the router to resolve an internal address? You can now add DNS records directly on the router:</p>
+<p><em>Router(config)#ip host server1.mydomain.com 10.10.10.5</em></p>
+<p>From a host, let’s set the DNS server on the router to look up the server1 DNS name:</p>
+<p><em>F:\]nslookup</em></p>
+<p><em>Default Server: dns-p1.mydomain.com</em></p>
+<p><em>Address: 10.10.10.11</em></p>
+<p><em>&gt; server 10.10.10.254</em> – <strong>Set the system to use the DNS server</strong></p>
+<p><em>Default Server: [10.10.10.254]</em></p>
+<p><em>Address: 10.10.10.254</em></p>
+<p><em>&gt; server1.mydomain.com</em> – <strong>Query for the name server1.mydomain.com</strong></p>
+<p><em>Server: 10.10.10.254</em> – <strong>The FQDN for the DNS server</strong></p>
+<p><em>Address: 10.10.10.254</em></p>
+<p><em>Name: server1.mydomain.com</em> – <strong>The response from the router running DNS</strong></p>
+<p><em>Address: 10.10.10.5</em> – <strong>The IP address of server1.mydomain.com</strong></p>
+<p><strong>FIG 1.44 – Public DNS server</strong></p>
+<p>It is recommended that you do not use a router as a <a href="https://www.howtonetwork.com/free-ccna-study-guide-ccna-book/port-address-translation/">DNS server</a>. A router is meant to route packets, and that is what it does best. The previous scenario was for demonstration purposes and should be avoided when possible.</p>
+<p>You can debug DNS traffic with the debug domain command.</p>
+<p>It’s worth noting that DNS for IPv4 and IPv6 are very similar in that they resolve hostnames mapped to IP addresses. One difference, however, is the name used for IPv4 and IPv6 DNS records. For IPv4, they are known as A records (made from 32 bits), whereas for IPv6, they are known as AAAA records (made from 128 bits). “A” simply stands for address.</p>
+<p>There is a large amount of information to learn about DNS server hierarchy and zone transfers; however, this is more typically expected for a <a href="https://www.howtonetwork.com/courses/comptia/network-plus-n10-008/">Network+ exam</a>, not for the CCNA exam. We will revisit DNS later in this guide to address some more syllabus-specific points.</p>
+<h3><span id="Cisco_Discovery_Protocol">Cisco Discovery Protocol</span></h3>
+<p>CDP is a Cisco proprietary protocol designed to collect information about neighboring network devices. CDP is on by default on Cisco devices.</p>
+<p>Because of its always-on feature, it presents a security risk to the network, but it is a very useful troubleshooting tool. For these reasons, we will cover CDP again in more detail later in this guide. CDP has always been an exam favorite.</p>
+<p>It’s worth noting that CDP only runs on Cisco devices (as mentioned), but it doesn’t run on hubs, so even if one is connected, you can’t use CDP to find it. This is why you might see MAC addresses recorded on your switch, but no switch connected via CDP.</p>
+<p><strong>FIG 1.45 – CDP in operation</strong></p>
+<p><em>Switch1#show cdp neighbor</em></p>
+<p><em>Capability Codes: R – Router, T – Trans Bridge, B – Source Route Bridge, S – Switch, H – Host, I – IGMP, r – Repeater, P – Phone</em></p>
+<p><em>Device ID&nbsp; Local Intrface&nbsp; Holdtime&nbsp; Capability&nbsp;&nbsp; Platform&nbsp;&nbsp; Port ID</em></p>
+<p><em>Switch&nbsp;&nbsp;&nbsp;&nbsp; Fas0/1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 136&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2960&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fas0/1</em></p>
+<p><em>Router&nbsp;&nbsp;&nbsp;&nbsp; Gig1/1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 139&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; R&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C1900&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gig0/0</em></p>
+<h3><span id="Mini-lab_-_Checking_for_CDP_Neighbors">Mini-lab – Checking for CDP Neighbors</span></h3>
+<p>In Figure 1.46 below, we have a simple Ethernet connection between R1 and R2. Please add the IP addresses to the relevant interfaces.</p>
+<p><strong>FIG 1.46 – Mini-lab: Checking for CDP neighbors</strong></p>
+<p>The show cdp command will display basic CDP protocol information for your device. Of course, your output may differ if you have different router models and IOS releases because Cisco changes things over time.</p>
+<p><em>R1#show cdp</em></p>
+<p><em>Global CDP information:</em></p>
+<p><em>Sending CDP packets every 60 seconds</em></p>
+<p><em>Sending a holdtime value of 180 seconds</em></p>
+<p><em>Sending CDPv2 advertisements is enabled</em></p>
+<p>You can see a basic CDP output with the <em>show cdp neighbor</em> command (note the U.S. spelling). I’ve shortened the command slightly because this is how you will use the commands in the real world.</p>
+<p><em>R1#show cdp nei</em></p>
+<p><em>Capability Codes: R – Router, T – Trans Bridge, B – Source Route Bridge, S – Switch, H – Host, I – IGMP, r – Repeater</em></p>
+<p><em>Device ID&nbsp;&nbsp; Local Intrface&nbsp; Holdtime&nbsp;&nbsp; Capability&nbsp; Platform&nbsp; Port ID</em></p>
+<p><em>R2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fas0/0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 170&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; R S I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3725&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fas0/0</em></p>
+<p>Next, you will see how powerful a tool CDP can be for troubleshooting and how it can present a security vulnerability when you add the <em>detail</em> tag to the command to reveal far more information:</p>
+<p><em>R1#show cdp neighbors detail</em></p>
+<p><em>————————-</em></p>
+<p><em>Device ID: R2.lab.local</em></p>
+<p><em>Entry address(es):</em></p>
+<p><em>IP address: 192.168.1.2</em></p>
+<p><em>Platform: Cisco 3725, Capabilities: Router Switch IGMP</em></p>
+<p><em>Interface: FastEthernet0/0, Port ID (outgoing port): FastEthernet0/0</em></p>
+<p><em>Holdtime: 161 sec</em></p>
+<p><em>Version:</em></p>
+<p><em>Cisco IOS Software, 3700 Software (C3725-ADVENTERPRISEK9-M), Version 15.1(15)T7, RELEASE SOFTWARE (fc3)</em></p>
+<p><em>advertisement version: 2</em></p>
+<p><em>VTP Management Domain: ”</em></p>
+<p><em>Duplex: half</em></p>
+<p>R1 can see the remote IP address of R2 (192.168.1.2), the IOS release (15.1(15)T7), the platform (C3725), and the interface on which R1 learned this information (FastEthernet0/0). I’ve often used the above commands when called in to troubleshoot an unfamiliar network. With these commands, you can quickly work out the physical topology, as well as where to try to telnet to and ping.</p>
+[END OF MINI-LAB]
+<h3><span id="Link-Layer_Discovery_Protocol">Link-Layer Discovery Protocol</span></h3>
+<p>LLDP is an open-standard version of CDP. For all intents and purposes, LLDP and CDP are one in the same. LLDP is the open standard version defined in IEEE 802.1AB. You would use it if you were supporting non-Cisco devices or connecting Cisco to non-Cisco.</p>
+<p>As with CDP, LLDP is used by devices to advertise and exchange information over the data-link layer. LLDP supports attributes which are used to discover neighbor devices. These attributes contain type, length, and value descriptions, and you have heard of the TVL exchange before. This information can include configurations, device capabilities, port details, and other parameters.</p>
+<p>Depending upon your IOS and device model, management TLVs can include port description, system name, system capabilities, management address, and system description.</p>
+<p>Default LLDP settings include:</p>
+<ul>
+<li><strong>LLDP global state</strong> – Disabled</li>
+<li><strong>LLDP holdtime</strong> (before discarding) – 120 seconds</li>
+<li><strong>LLDP timer</strong> (packet update frequency) – 30 seconds</li>
+<li><strong>LLDP reinitialization delay</strong> – 2 seconds</li>
+<li><strong>LLDP tlv-select</strong> – Enabled to send and receive all TLVs.</li>
+<li><strong>LLDP interface state</strong> – Enabled</li>
+<li><strong>LLDP receive</strong> – Enabled</li>
+<li><strong>LLDP transmit</strong> – Enabled</li>
+</ul>
+<p>LLDP is enabled in global configuration mode with the lldp run command.</p>
+<p>It’s well worth noting some of the timers you can set globally for LLDP.</p>
+<ul>
+<li>lldp holdtime [seconds] – (Optional) Specifies the amount of time a receiving device should hold the information sent by your device before discarding it. The range is 0 to 65535 seconds; the default is 120 seconds.</li>
+<li>lldp reinit – (Optional) Specifies the delay time in seconds for LLDP to initialize on any interface. The range is 2 to 5 seconds; the default is 2 seconds.</li>
+<li>lldp timer [seconds] – (Optional) Sets the transmission frequency of LLDP updates in seconds. The range is 5 to 65534 seconds; the default is 30 seconds.</li>
+</ul>
+<p>A sample configuration would be:</p>
+<p><em>Switch#configure terminal</em></p>
+<p><em>Switch(config)#lldp holdtime 130</em></p>
+<p><em>Switch(config)#lldp reinit 3</em></p>
+<p><em>Switch(config)#lldp timer 30</em></p>
+<p><em>Switch(config)#end</em></p>
+<p>This example illustrates how to configure a holdtime of 130 seconds, a delay time of 3 seconds, and an update frequency of 30.</p>
+<h3><span id="Mini-lab_-_Discovering_Devices_with_LLDP">Mini-lab – Discovering Devices with LLDP</span></h3>
+<p>For all intents and purposes, LLDP and CDP are one in the same. LLDP is the open standard version defined in IEEE 802.1AB. Only later IOS releases and certain platforms support LLDP. For labs, it will be easiest to complete them using Packet Tracer.</p>
+<p><strong>FIG 1.47 – Discovering devices with LLDP</strong></p>
+<p>You may find that (unlike CDP) LLDP is disabled by default:</p>
+<p><em>Router0#show lldp neighbors</em></p>
+<p><em>% LLDP is not enabled</em></p>
+<p><em>Router0(config)#lldp run</em></p>
+<p><em>Router0(config)#end</em></p>
+<p>You need to enable LLDP on all devices and no shut any interfaces. There is no need to add any IP addresses because LLDP runs at Layer 2:</p>
+<p><em>Router0#show lldp nei</em></p>
+<p><em>Capability codes:</em></p>
+<p><em>(R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device</em></p>
+<p><em>(W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other</em></p>
+<p><em>Device ID Local Intf Hold-time Capability Port ID</em></p>
+<p><em>Switch&nbsp;&nbsp;&nbsp; Gig0/0&nbsp;&nbsp;&nbsp;&nbsp; 120&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gig0/1</em></p>
+<p><em>Total entries displayed: 1</em></p>
+<p><em>Router0#</em></p>
+<p><em>Switch#show lldp nei</em></p>
+<p><em>Capability codes:</em></p>
+<p><em>(R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device</em></p>
+<p><em>(W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other</em></p>
+<p><em>Device ID Local Intf Hold-time Capability Port ID</em></p>
+<p><em>Router0&nbsp;&nbsp;&nbsp; Gig0/1&nbsp;&nbsp;&nbsp;&nbsp; 120&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; R&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gig0/0</em></p>
+<p><em>Router1&nbsp;&nbsp;&nbsp; Gig0/2&nbsp;&nbsp;&nbsp;&nbsp; 120&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; R&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gig0/0</em></p>
+<p><em>Total entries displayed: 2</em></p>
+<p>You can also disable or enable LLDP per interface:</p>
+<p><em>Router0(config)#int g0/0</em></p>
+<p><em>Router0(config-if)#lldp ?</em></p>
+<p><em>receive Enable LLDP reception on interface</em></p>
+<p><em>transmit Enable LLDP transmission on interface</em></p>
+<p>There are other LLDP show commands, but these are not supported on PT:</p>
+<p><em>show lldp entry</em></p>
+<p><em>show lldp interface</em></p>
+<p><em>show lldp neighbors detail</em></p>
+<p><em>show lldp traffic</em></p>
+<p><em>debug lldp</em></p>
+<p>You can disable LLDP by configuring <em>no lldp run</em> globally or <em>no lldp transmit/receive</em> per interface.</p>
+[END OF MINI-LAB]
+<h2><span id="Network_Topologies">Network Topologies</span></h2>
+<p>The network topologies featured in early versions of the CCNA exam were dropped after Cisco decided that students taking the CCNA exam already had around 18 months of networking experience and were already at the CompTIA Network+ or similar level of knowledge. Network topologies are now back in the exam, presumably after feedback from various Cisco customers.</p>
+<p>The network topology is usually decided during the design phase, and will usually be limited by technology, which always comes down to a balance between cost, reliability, scalability, and security. It is fairly rare for a company to have unlimited funds, so compromises have to be made in certain areas.</p>
+<p>Figure 1.48 below is from our Cisco CCDA Simplified study guide and demonstrates some of the factors to be considered during the network planning phase:</p>
+<p><strong>FIG 1.48 – Cisco network design considerations</strong></p>
+<p>Cisco has a very advanced network planning model, and if a company’s budget is big enough, Cisco will engage a network design architect for assistance. Cisco also offers a range of network design certifications that are highly regarded, from CCDA to CCDP and CCDE (although the first two are now retired).</p>
+<p>The Cisco network planning model can be summarized as follows:</p>
+<ul>
+<li>Top-down approach recommended for medium to large campus designs</li>
+<li>Big-picture down to small details</li>
+<li>Starting at layer 7 and moving down to layer 1</li>
+<li>Quick-fix method, which is the bottom-up approach (however, this leads to rollbacks and errors)</li>
+</ul>
+<p>Figure 1.49 below represents the top-down approach at a high level:</p>
+<p><strong>FIG 1.49 – Cisco top-down approach to design</strong></p>
+<p>As Figure 1.49 shows, the design planning sub-projects include:</p>
+<ul>
+<li>Choosing the technology, acquisitioning, and provisioning</li>
+<li>Physical topology design (placing the design at different layers)</li>
+<li>Addressing the design scheme, including NAT solutions</li>
+<li>Routing selection and design</li>
+<li>Quality of Service design (traffic management)</li>
+<li>Security design</li>
+<li>IP Multicast design (for video and audio streaming)</li>
+<li>IPv6 provisioning design</li>
+</ul>
+<p>There are many topology choices and, as stated above, it all boils down to available technology and a company’s particular requirements, budget, and the future plans for growth (such as acquiring other companies). Cisco only mentions star, mesh, and hybrid in the syllabus; however, there are a few others in the exam and, of course, in the real world, which include:</p>
+<ul>
+<li>Point-to-point</li>
+<li>Point-to-multipoint</li>
+<li>Ring</li>
+<li>Star</li>
+<li>Bus</li>
+<li>WAN-specific – hub-and-spoke/full-mesh/partial-mesh</li>
+</ul>
+<h3><span id="Point-to-Point">Point-to-Point</span></h3>
+<p>Point-to-point networks are a direct link between two devices. They are most often used in WAN topologies such as T1/E1. A common exam question asks about the advantages of this topology, and one advantage is that such a link usually requires only two IP addresses (/30 address).</p>
+<p><strong>FIG 1.50 – Point-to-point link</strong></p>
+<h3><span id="Point-to-Multipoint">Point-to-Multipoint</span></h3>
+<p>Point-to-multipoint networks are very popular today and are commonly used in wireless networks. With this topology, multiple devices communicate with a central device/interface. End devices may not necessarily be able to communicate, which means that extra configuration commands may have to be added to overcome this issue.</p>
+<p>You will learn more about configuring routing protocols such as EIGRP over point-to-multipoint networks in the CCNP exams.</p>
+<p><strong>FIG 1.51 – Point-to-multipoint topology</strong></p>
+<h3><span id="Ring">Ring</span></h3>
+<p>Ring networks were common in the 1980s and 1990s when token ring was the typical topology for LANs. The name stems from the fact that all network nodes are connected in a ring fashion. One advantage is that if one node fails, a connection is still possible. If the router fails, however, then the entire network will experience an outage. The ring topology is still used in Metro Area Networks but with dual rings for redundancy.</p>
+<p><strong>FIG 1.52 – Ring topology</strong></p>
+<h3><span id="Star">Star</span></h3>
+<p>The star topology is the most commonly used topology in modern networks. It may not look like a star when you see it racked up but, in this topology, all nodes directly connect to a central device (usually a switch). The star topology is used in Ethernet networks.</p>
+<p><strong>FIG 1.53 – Star topology</strong></p>
+<h3><span id="Bus">Bus</span></h3>
+<p>The bus topology was used in early implementations of Ethernet with coaxial cables. These were thick wires that had to be physically pierced and were notoriously difficult to work with and troubleshoot. A break in a cable would bring the entire network down.</p>
+<p><strong>FIG 1.54 – Bus topology</strong></p>
+<h3><span id="WAN-specific">WAN-specific</span></h3>
+<p>There are a few options when it comes to the WAN topology, and there may be some limitations depending on where in the world a company is based and what their service providers can offer.</p>
+<p>Options includes hub-and-spoke, full-mesh, and partial-mesh, among others. The full-mesh topology is the most fault-tolerant since there is a connection from every device to every other device. As shown in Figure 1.55 below, full-mesh requires each node to be connected to every other node:</p>
+<p><strong>FIG 1.55 – Full-mesh</strong></p>
+<p>If you want to work out the number of connections required, the formula is n*(n-1)/2 connections, so 5 nodes = 10 connections (5 x 4 /2 = 10).</p>
+<p>The hub-and-spoke topology is shown in Figure 1.56 below:</p>
+<p><strong>FIG 1.56 – WAN hub-and-spoke topology</strong></p>
+<p>Hybrid topologies vary depending on a company’s needs. They can combine mesh, partial-mesh, bus, star, point-to-multipoint, etc., and they can grow over time if requirements change. Figure 1.57 below shows an example of a hybrid topology:</p>
+<p><strong>FIG 1.57 – Hybrid topology</strong></p>
+<h2><span id="End_of_Chapter_Questions">End of Chapter Questions</span></h2>
+<p>Please visit <a href="https://www.howtonetwork.com/ccnasimplified">www.howtonetwork.com/ccnasimplified</a> to take the free Chapter 1 exam.</p>
+<h2><span id="Chapter_1_Labs">Chapter 1 Labs</span></h2>
+<h3><span id="Lab_1_Basic_Lab_-_Router_Modes_and_Commands">Lab 1: Basic Lab – Router Modes and Commands</span></h3>
+<p>There is no physical topology for this lab. Just use any Cisco router.</p>
+<h4><span id="Purpose">Purpose</span></h4>
+<p>Any person new to configuring Cisco routers needs to feel comfortable navigating around the various router features and modes. This lab will be a great icebreaker for a budding CCNA. We cover how to use a console cable with a router later (if you are a beginner), so follow those steps before you start or come back to this lab later if you wish. It will still be here waiting for you.</p>
+<p>Your output and interfaces may differ from mine if you are using a different model and IOS release.</p>
+<h4><span id="Lab_Objectives">Lab Objectives</span></h4>
+<ol>
+<li>Connect to the console port.</li>
+<li>Enter privileged mode (enable mode).</li>
+<li>Enter global configuration mode (config mode).</li>
+<li>Enter the interface configuration mode.</li>
+<li>Enter the routing configuration mode (router mode).</li>
+<li>Exit to privileged mode.</li>
+<li>Execute some useful commands.</li>
+<li>Exit to user exec mode.</li>
+<li>Examine interface statistics.</li>
+<li>Change router hostname.</li>
+</ol>
+<h4><span id="Lab_Walk-through">Lab Walk-through</span></h4>
+<ol>
+<li>When connecting to the console of the router, you will typically see the following message. Always type no if asked if you want to enter System Configuration Dialog:</li>
+</ol>
+<p><em>— System Configuration Dialog —</em></p>
+<p><em>Continue with configuration dialog? [yes/no]: no</em></p>
+<p><em>Press RETURN to get started!</em></p>
+<p><em>Router con0 is now available</em></p>
+<p>As instructed, you simply need to press the Enter key and enter the first mode of the router, user exec mode:</p>
+<p><em>Router&gt;</em></p>
+<ol start="2">
+<li>Now you are in user exec mode. Next, enter privileged mode, or enable mode as it is more commonly known. To do this, type:</li>
+</ol>
+<p><em>Router&gt;enable</em></p>
+<p>You will now be presented with a new prompt that has a hash/pound (#) sign instead of the greater than (&gt;) sign:</p>
+<p><em>Router&gt;enable</em></p>
+<p><em>Router#</em></p>
+<p>Enable mode is used to perform all the show and debug commands, which will be explained later in the lab.</p>
+<ol start="3">
+<li>The next mode to enter is global configuration mode, or config mode as it is more commonly known. To enter config mode, type:</li>
+</ol>
+<p><em>Router#config terminal</em></p>
+<p>As you will soon learn, all the commands in the Cisco IOS (operating system) can be abbreviated; for example, you could have entered:</p>
+<p><em>Router#conf t</em></p>
+<p>If you just type config and press Enter, you will receive the following output:</p>
+<p><em>Router#config</em></p>
+<p><em>Configuring from terminal, memory, or network [terminal]?</em></p>
+<p>As you will see, terminal is the default (indicated by the square brackets []), so you can simply press Enter to go into config or privileged mode.</p>
+<ol start="4">
+<li>Once in config mode, you will be prompted with the following message:</li>
+</ol>
+<p><em>Router#config terminal</em></p>
+<p><em>Enter configuration commands, one per line. End with Ctrl+Z.</em></p>
+<p><em>Router(config)#</em></p>
+<p>This is telling you that when you have finished in config mode, press the Ctrl+Z keys together to exit.</p>
+<p>Once in config mode, you will notice that the prompt has changed again, this time from Router# to Router(config)#, indicating that you are in config mode. There are sublayers to config mode, but we are only interested in two of them, the first being interface configuration mode. First, you need to know which interfaces you have available:</p>
+<p><em>Router#show ip interface brief</em></p>
+<p><em>Interface&nbsp; IP-Address&nbsp; OK?&nbsp; Method Status&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Protocol</em></p>
+<p><em>Fa0/0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; unassigned&nbsp; YES&nbsp; unset&nbsp; administratively down down</em></p>
+<p><em>Fa0/1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; unassigned&nbsp; YES&nbsp; unset&nbsp; administratively down down</em></p>
+<p>I have F0/0 and F0/1 available on my router. Your options may differ.</p>
+<p><em>Router(config)#interface FastEthernet0/0</em> – <strong>Or use Loopback 0 if your router does not have an Ethernet interface</strong></p>
+<p><em>Router(config-if)#</em></p>
+<p>If you are not sure which interfaces you have on your router, enter the <em>show ip interface brief</em> command at the Router# prompt. If you do not have an Ethernet interface, replace the command above with interface Loopback 0.</p>
+<p>You will see that the prompt has changed again: the (config-if) tells you that you are now in interface configuration mode. If you aren’t sure what to type, then enter a question mark (?) at the end of what you are typing.</p>
+<p><em>Router(config)#interface ?</em></p>
+<p><em>Dot11Radio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dot11 interface</em></p>
+<p><em>Ethernet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IEEE 802.3</em></p>
+<p><em>FastEthernet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FastEthernet IEEE 802.3</em></p>
+<p><em>GigabitEthernet&nbsp;&nbsp; GigabitEthernet IEEE 802.3z</em></p>
+<p><em>Loopback&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Loopback interface</em></p>
+<p><em>Serial&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Serial</em></p>
+<p><em>Tunnel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tunnel interface</em></p>
+<p><em>Virtual-Template&nbsp; Virtual Template interface</em></p>
+<p><em>Vlan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Catalyst Vlans</em></p>
+<p><em>range&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; interface range command</em></p>
+<p><em>Router(config)#interface FastEthernet0/0</em></p>
+<p><em>Router(config-if)#</em></p>
+<ol start="5">
+<li>Another sublayer of config mode is the router configuration mode:</li>
+</ol>
+<p><em>Router(config-if)#exit</em></p>
+<p><em>Router(config)#router rip</em></p>
+<p><em>Router(config-router)#</em></p>
+<p>When you exit from interface configuration mode and type router rip, you enter router configuration mode. You can see that the prompt has changed again to reflect this.</p>
+<ol start="6">
+<li>To exit config mode and go back to privileged (enable) mode, you simply need to type:</li>
+</ol>
+<p><em>Router(config-router)#^Z</em> – <strong>Hold down the Ctrl and Z keys (together)</strong></p>
+<p><em>Router#</em></p>
+<p>When you do this, you will get the following message displayed after a few seconds:</p>
+<p><em>%SYS-5-CONFIG_I: Configured from console by console</em></p>
+<p><em>Router#</em></p>
+<ol start="7">
+<li>Now that you are back in enable mode, you can use some useful show commands. The common ones to use are shown below:</li>
+</ol>
+<p><em>Router#show ip interface brief</em></p>
+<p><em>Interface&nbsp; IP-Address&nbsp;&nbsp; OK?&nbsp; Method Status&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Protocol</em></p>
+<p><em>Fa0/0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; unassigned&nbsp;&nbsp; YES&nbsp; unset&nbsp; administratively down down</em></p>
+<p><em>Fa0/1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; unassigned&nbsp;&nbsp; YES&nbsp; unset&nbsp; administratively down down</em></p>
+<p><em>Router#</em></p>
+<p>The benefit of this command is that it shows the status and IP addresses of all the interfaces in a table. Do not worry if your output is different from the one above.</p>
+<p>The next command that is useful is show running-configuration, which will display the current configuration (yours may look different from the one below). The output will be cut short so that you can see it all on your monitor. You can press the Enter key to go through it line by line or press the space bar to scroll up a page at a time:</p>
+<p><em>Router#show running-config</em></p>
+<p>Or:</p>
+<p><em>Router#show run</em> – <strong>Abbreviated command</strong></p>
+<p><em>Building configuration…</em></p>
+<p><em>Current configuration: 489 bytes</em></p>
+<p><em>!</em></p>
+<p><em>version 15.1</em></p>
+<p><em>no service timestamps log datetime msec</em></p>
+<p><em>no service timestamps debug datetime msec</em></p>
+<p><em>no service password-encryption</em></p>
+<p><em>!</em></p>
+<p><em>hostname Router</em></p>
+<p><em>!</em></p>
+<p><em>spanning-tree mode pvst</em></p>
+<p><em>!</em></p>
+<p><em>interface FastEthernet0/0</em></p>
+<p><em>no ip address</em></p>
+<p><em>duplex auto</em></p>
+<p><em>speed auto</em></p>
+<p><em>shutdown</em></p>
+<p><em>!</em></p>
+<p><em>interface FastEthernet0/1</em></p>
+<p><em>no ip address</em></p>
+<p><em>duplex auto</em></p>
+<p><em>speed auto</em></p>
+<p><em>shutdown</em></p>
+<p><em>!</em></p>
+<p><em>interface Vlan1</em></p>
+<p><em>no ip address</em></p>
+<p><em>shutdown</em></p>
+<p><em>!</em></p>
+<p><em>ip classless</em></p>
+<p><em>!</em></p>
+<p><em>line con 0</em></p>
+<p><em>!</em></p>
+<p><em>line aux 0</em></p>
+<p><em>!</em></p>
+<p><em>line vty 0 4</em></p>
+<p><em>login</em></p>
+<p><em>!</em></p>
+<p><em>End</em></p>
+<p>&nbsp;</p>
+<p>Type <em>show version</em> (or <em>show ver</em> for short):</p>
+<p>&nbsp;</p>
+<p><em>Router#show ver</em></p>
+<p><em>Cisco IOS Software, C2900 Software (C2900-UNIVERSALK9-M), Version 15.1(4)M4, RELEASE SOFTWARE (fc2)</em></p>
+<p><em>Technical Support: http://www.cisco.com/techsupport</em></p>
+<p><em>Copyright (c) 1986-2012 by Cisco Systems, Inc.</em></p>
+<p><em>Compiled Thurs 5-Jan-12 15:41 by pt_team</em></p>
+<p><em>ROM: System Bootstrap, Version 15.1(4)M4, RELEASE SOFTWARE (fc1)</em></p>
+<p><em>cisco2911 uptime is 1 minutes, 35 seconds</em></p>
+<p><em>System returned to ROM by power-on</em></p>
+<p><em>System image file is “flash0:c2900-universalk9-mz.SPA.151-1.M4.bin”</em></p>
+<p><em>Last reload type: Normal Reload</em></p>
+<p><em>If you require further assistance please contact us by sending email to export@cisco.com.</em></p>
+<p><em>Cisco CISCO2911/K9 (revision 1.0) with 491520K/32768K bytes of memory.</em></p>
+<p><em>Processor board ID FTX152400KS</em></p>
+<p><em>3 GigabitEthernet interfaces</em></p>
+<p><em>DRAM configuration is 64 bits wide with parity disabled.</em></p>
+<p><em>255K bytes of non-volatile configuration memory.</em></p>
+<p><em>249856K bytes of ATA System CompactFlash 0 (Read/Write)</em></p>
+<p><em>Configuration register is 0x2102</em></p>
+<p>To exit to user exec mode, you simply need to type disable or exit:</p>
+<p><em>Router#disable</em></p>
+<p><em>Router&gt;enable</em></p>
+<p><em>Router#</em></p>
+<ol start="8">
+<li>You can also examine the interface statistics with the show interface x command:</li>
+</ol>
+<p><em>Router#show interface f0/0</em></p>
+<p><em>FastEthernet0/0 is administratively down, line protocol is down (disabled)</em></p>
+<p><em>Hardware is Lance, address is 0060.5cd9.8001 (bia 0060.5cd9.8001)</em></p>
+<p><em>MTU 1500 bytes, BW 100000 Kbit, DLY 100 usec,</em></p>
+<p><em>reliability 255/255, txload 1/255, rxload 1/255</em></p>
+<p><em>Encapsulation ARPA, Loopback not set</em></p>
+<p><em>ARP type: ARPA, ARP Timeout 04:00:00,</em></p>
+<p><em>Last input 00:00:08, output 00:00:05, output hang never</em></p>
+<p><em>Last clearing of “show interface” counters never</em></p>
+<p><em>Input queue: 0/75/0 (size/max/drops); Total output drops: 0</em></p>
+<p><em>Queueing strategy: fifo</em></p>
+<p><em>Output queue :0/40 (size/max)</em></p>
+<p><em>5 minute input rate 0 bits/sec, 0 packets/sec</em></p>
+<p><em>5 minute output rate 0 bits/sec, 0 packets/sec</em></p>
+<p><em>0 packets input, 0 bytes, 0 no buffer</em></p>
+<p><em>Received 0 broadcasts, 0 runts, 0 giants, 0 throttles</em></p>
+<p><em>0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort</em></p>
+<p><em>0 input packets with dribble condition detected</em></p>
+<p><em>0 packets output, 0 bytes, 0 underruns</em></p>
+<p><em>0 output errors, 0 collisions, 1 interface resets</em></p>
+<p><em>0 babbles, 0 late collision, 0 deferred</em></p>
+<p><em>0 lost carrier, 0 no carrier</em></p>
+<p><em>0 output buffer failures, 0 output buffers swapped out</em></p>
+<p><em>Router#</em></p>
+<ol start="9">
+<li>You can change the hostname of the router by doing the following:</li>
+</ol>
+<p><em>Router#config</em></p>
+<p><em>Configuring from terminal, memory, or network [terminal]?</em> –&nbsp;<strong>Press Enter</strong></p>
+<p><em>Enter configuration commands, one per line.&nbsp; End with CNTL/Z.</em></p>
+<p><em>Router(config)#hostname RouterA</em></p>
+<p><em>RouterA(config)#</em></p>
+<ol start="10">
+<li>Now reload the router: Do not save any changes.</li>
+</ol>
+<p><em>Router#reload</em></p>
+<h3><span id="Lab_2_ARP_CDP_Ping_and_Telnet_Lab">Lab 2: ARP, CDP, Ping, and Telnet Lab</span></h3>
+<p>The physical topology is shown in Figure 1.58 below. Connect two routers with a crossover cable or with a switch.</p>
+<p><strong>FIG 1.58 – ARP, CDP, ping, and telnet lab</strong></p>
+<h4><span id="Lab_Exercise">Lab Exercise</span></h4>
+<p>Your task is to configure the network referring to Figure 1.58 above to check for an ARP entry and a CDP neighbor, and to test the ping command and the telnet command. We are using Loopback interfaces here, which only exist logically. They are a perfect way to test routing and access lists without having to plug in extra hosts and cables.</p>
+<p>Please note that if your interfaces aren’t numbered F0/0, you will need to swap the interface ID with what you do have. Issue a show ip interface brief command to see what you have available. We will cover some of the commands here, such as static routing, which will be explained in later sections. Just copy them for now.</p>
+<h4><span id="Purpose1">Purpose</span></h4>
+<p>This lab explores some TCP and CDP fundamentals. ARP issues are very common, and the capacity to check ARP entries will be very useful to you in your career as a Cisco engineer.</p>
+<h4><span id="Lab_Objectives1">Lab Objectives</span></h4>
+<ol>
+<li>Use the IP addressing scheme depicted in Figure 1.58 above. We are using Ethernet interfaces connected by a crossover cable or a switch for this lab.</li>
+<li>Set Telnet access for the router to use the local login permissions for username banbury and the password ccna.</li>
+<li>Configure the enable password to be cisco.</li>
+<li>Check the ARP entry on Router A. Ping Router B and check the ARP entry again.</li>
+<li>Check CDP neighbor details.</li>
+<li>Telnet from Router A to Router B.</li>
+</ol>
+<h4><span id="Lab_Walk-through1">Lab Walk-through</span></h4>
+<ol>
+<li>To set the IP addresses on an interface, you will need to do the following:</li>
+</ol>
+<p><em>Router#config t</em></p>
+<p><em>Router(config)#hostname RouterA</em></p>
+<p><em>RouterA(config)#interface FastEthernet0/0</em></p>
+<p><em>RouterA(config-if)#ip address 10.0.0.1 255.0.0.0</em></p>
+<p><em>RouterA(config-if)#no shutdown</em></p>
+<p><em>RouterA(config-if)#interface Loopback0</em></p>
+<p><em>RouterA(config-if)#ip address 172.16.1.1 255.255.0.0</em></p>
+<p><em>RouterA(config-if)#interface Loopback 1</em></p>
+<p><em>RouterA(config-if)#ip address 172.20.1.1 255.255.0.0</em></p>
+<p><em>RouterA(config-if)#^Z</em></p>
+<p><em>RouterA#</em></p>
+<p>Router B:</p>
+<p><em>Router#config t</em></p>
+<p><em>Router(config)#hostname RouterB</em></p>
+<p><em>RouterB(config)#</em></p>
+<p><em>RouterB(config)#interface FastEthernet0/0</em></p>
+<p><em>RouterB(config-if)#ip address 10.0.0.2 255.0.0.0</em></p>
+<p><em>RouterB(config-if)#no shutdown</em></p>
+<p><em>RouterB(config-if)#interface Loopback0</em></p>
+<p><em>RouterB(config-if)#ip address 172.30.1.1 255.255.0.0</em></p>
+<p><em>RouterB(config-if)#interface Loopback1</em></p>
+<p><em>RouterB(config-if)#ip address 172.31.1.1 255.255.0.0</em></p>
+<p><em>RouterB(config-if)#^Z</em></p>
+<p><em>RouterB#</em></p>
+<ol start="2">
+<li>To set Telnet access, you need to configure the VTY lines to allow Telnet access. You first need to check how many Telnet/VTY lines you have as each model differs, as does GNS3. To do this, type (in configuration mode):</li>
+</ol>
+<p><em>RouterA(config)#line vty 0 ?</em></p>
+<p><em>&lt;1-903&gt; Last Line number</em></p>
+<p><em>&lt;cr&gt;</em></p>
+<p><em>RouterA(config)#line vty 0 903</em> –&nbsp;<strong>Enters the VTY line configuration</strong></p>
+<p><em>RouterA(config-line)#login local</em> – <strong>This will use local&nbsp; usernames and </strong><strong>passwords for Telnet access</strong></p>
+<p><em>RouterA(config-line)#exit</em> – <strong>Exit the VTY config mode</strong></p>
+<p><em>RouterA(config)#username banbury password ccna</em> – <strong>Creates</strong><strong>&nbsp;name and password for Telnet access (login local)</strong></p>
+<p>Router B:</p>
+<p><em>RouterB(config)#line vty 0 903</em></p>
+<p><em>RouterB(config-line)#login local</em></p>
+<p><em>RouterB(config-line)#exit</em></p>
+<p><em>RouterB(config)#username banbury password ccna</em></p>
+<ol start="3">
+<li>To set the enable password, do the following:</li>
+</ol>
+<p><em>RouterA(config)#enable secret cisco</em> –&nbsp; <strong>Sets the enable password</strong><strong>&nbsp;(encrypted)</strong></p>
+<p>Router B:</p>
+<p><em>RouterB(config)#enable secret cisco</em></p>
+<ol start="4">
+<li>To configure a default route, there is one simple step (in configuration mode):</li>
+</ol>
+<p><em>RouterA(config)#ip route 0.0.0.0 0.0.0.0 FastEthernet0/0</em> –&nbsp; <strong>For all unknown addresses send the packet out of F0/0</strong></p>
+<p>Router B:</p>
+<p><em>RouterB(config)#ip route 0.0.0.0 0.0.0.0 FastEthernet0/0</em></p>
+<ol start="5">
+<li>To test the connection, first, you will need to check whether the link is up. To do this, use the show interface command (see below):</li>
+</ol>
+<p>Make sure that Fast Ethernet 0/0 is up and line protocol is up.</p>
+<p><em>RouterA#show interface FastEthernet0/0</em></p>
+<p><em>FastEthernet0 is up, line protocol is up</em></p>
+<p><em>Hardware is Lance, address is 0000.0c3d.d469 (bia 0000.0c3d.d469)</em></p>
+<p><em>Internet address is 10.0.0.1/8</em></p>
+<p><em>MTU 1500 bytes, BW 10000 Kbit, DLY 1000 usec,</em></p>
+<p><em>reliability 255/255, txload 1/255, rxload 1/255</em></p>
+<p><em>Encapsulation ARPA, Loopback not set</em></p>
+<p>Next, ping your neighbor’s Ethernet interface; this will test whether the link is OK:</p>
+<p><em>RouterA#ping 10.0.0.2</em></p>
+<p><em>Type escape sequence to abort.</em></p>
+<p><em>Sending 5, 100-byte ICMP Echos to 10.0.0.2, timeout is 2 seconds:</em></p>
+<p><em>.!!!!</em> –&nbsp;<strong>The first ping failed, while the ARP reply came back from Router A</strong></p>
+<p><em>Success rate is 80 percent (4/5), round-trip min/avg/max = 1/1/1 ms.</em></p>
+<p>Next, check your router ARP cache:</p>
+<p><em>RouterA#show arp</em></p>
+<p><em>Protocol&nbsp; Address&nbsp;&nbsp; Age (min)&nbsp; Hardware Addr&nbsp;&nbsp; Type&nbsp;&nbsp; Interface</em></p>
+<p><em>Internet&nbsp; 10.0.0.2&nbsp; 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0050.5460.f1f8&nbsp; ARPA&nbsp;&nbsp; F0/0</em></p>
+<p><em>Internet&nbsp; 10.0.0.1&nbsp; –&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0010.7b80.63a3&nbsp; ARPA&nbsp;&nbsp; F0/0</em></p>
+<p>Your hardware address will obviously be different from the one on my routers!</p>
+<ol start="6">
+<li>To test CDP, you simply need to enter the show cdp neighbor Bear in mind that the spelling is in U.S. English and that you will have a different output, depending on what device you are connected to. We will cover CDP in more detail later in this guide.</li>
+</ol>
+<p><em>RouterA#show cdp neighbor</em></p>
+<p><em>Capability Codes: R – Router, T – Trans Bridge, B – Source Route Bridge S – Switch, H – Host, I – IGMP, r – Repeater</em></p>
+<p><em>Device ID&nbsp; Local Intrfce&nbsp; Holdtme Capability&nbsp; Platform&nbsp; Port ID</em></p>
+<p><em>RouterB&nbsp;&nbsp;&nbsp; F0/0 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 172&nbsp;&nbsp;&nbsp;&nbsp; R&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2900&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F0/0</em></p>
+<ol start="7">
+<li>Finally, telnet from Router A to Router B. To quit a Telnet session, hold down the Ctrl+Shift+6 keys at the same time. Then release, and press the X key. Or just type exit a few times.</li>
+</ol>
+<p><em>RouterA#telnet 10.0.0.2</em></p>
+<p><em>Trying 10.0.0.2 … Open</em></p>
+<p><em>User Access Verification</em></p>
+<p><em>Username: banbury</em></p>
+<p><em>Password:</em>&nbsp; &nbsp;– <strong>Won’t show as you type it</strong></p>
+<p><em>RouterB&gt;enable</em></p>
+<p><em>Password:</em></p>
+<p><em>RouterB#</em>&nbsp; &nbsp;– <strong>You are now in privileged mode on Router B</strong></p>
+<p>Now issue a <em>show run</em> command on both routers and look at the output.</p>
+<h3><span id="Lab_3_Traceroute_from_Router_A_to_Router_B">Lab 3: Traceroute from Router A to Router B</span></h3>
+<p><strong>FIG 1.59 – Performing a traceroute</strong></p>
+<h4><span id="Lab_Exercise1">Lab Exercise</span></h4>
+<p>In this lab, you will perform a traceroute From Router A to Router B using Figure 1.59 above as a reference. You wouldn’t usually use the <em>traceroute</em> command over two routers, but it’s an easy way to try out some commands. You configured the above network in the previous lab, so please copy all those commands.</p>
+<h4><span id="Purpose2">Purpose</span></h4>
+<p>The<em> traceroute</em> command is a very valuable part of your troubleshooting toolkit. Don’t mistake this for the Windows <em>tracert</em> command, which won’t work on Cisco routers.</p>
+<h4><span id="Lab_Walk-through2">Lab Walk-through</span></h4>
+<p>In privileged mode, type in the Loopback address of Router B:</p>
+<p><em>RouterA#traceroute 172.30.1.1</em></p>
+<p><em>Type escape sequence to abort.</em></p>
+<p><em>Tracing the route to 172.30.1.1</em></p>
+<p><em>1 10.0.0.2 24 msec *&nbsp; 32 msec</em></p>
+<h3><span id="Lab_4_Copy_Startup_Config_Using_TFTP">Lab 4: Copy Startup Config Using TFTP</span></h3>
+<p>The physical topology is shown in Figure 1.60 below:</p>
+<p><strong>FIG 1.60 – TFTP lab</strong></p>
+<h4><span id="Lab_Exercise2">Lab Exercise</span></h4>
+<p>Your task is to configure the IP addressing specified in Figure 1.60.</p>
+<p>Text in Courier New font indicates commands that can be entered on the router.</p>
+<h4><span id="Purpose3">Purpose</span></h4>
+<p>Backing up the router’s configuration is a crucial part of your backup and disaster avoidance procedures. You will also need to use a TFTP server if you want to upgrade your router’s IOS. Familiarity with using a TFTP server is a fundamental skill for a Cisco engineer.</p>
+<h4><span id="Lab_Objectives2">Lab Objectives</span></h4>
+<ol>
+<li>Configure the router’s Ethernet interface.</li>
+<li>Put TFTP software onto your PC.</li>
+<li>Connect the PC and router with a crossover cable, or using a hub or switch.</li>
+<li>Ping across the Ethernet link.</li>
+<li>Copy the startup configuration from the router to the TFTP server.</li>
+</ol>
+<h4><span id="Lab_Walk-through3">Lab Walk-through</span></h4>
+<ol>
+<li>Configure the network shown in Figure 1.60. If you need help, look at some of the other labs you have already configured.</li>
+</ol>
+<p><em>Router#config t</em></p>
+<p><em>RouterA(config)#interface FastEthernet0</em></p>
+<p><em>RouterA(config-if))#ip address 10.0.0.2 255.0.0.0</em></p>
+<p><em>RouterA(config-if)#no shut</em></p>
+<ol start="2">
+<li>Install TFTP software on your PC, making it a TFTP server. You can find this software at websites such as www.solarwindsuk.net. Install the software on the root of your C drive. Alternatively, use a server inside Packet Tracer and turn on TFTP.</li>
+</ol>
+<p>Make sure that both the PC and the router are in the same subnet. Change the IP address of the PC to 10.0.0.1 255.0.0.0.</p>
+<p>Ping the PC from the router to confirm IP connectivity.</p>
+<p><em>Router#ping 10.0.0.1</em></p>
+<p><em>Type escape sequence to abort.</em></p>
+<p><em>Sending 5, 100-byte ICMP Echos to 10.0.0.1, timeout is 2 seconds:</em></p>
+<p><em>!!!!!</em></p>
+<p><em>Success rate is 100 percent (5/5), round-trip min/avg/max = 32/32/32 ms</em></p>
+<p>Copy the startup configuration to the TFTP server.</p>
+<p><em>Router#ping 10.0.0.1</em></p>
+<p><em>Type escape sequence to abort.</em></p>
+<p><em>Sending 5, 100-byte ICMP Echos to 10.0.0.1, timeout is 2 seconds:</em></p>
+<p><em>!!!!!</em></p>
+<p><em>Success rate is 100 percent (5/5), round-trip min/avg/max = 4/4/4 ms</em></p>
+<p><em>Router#copy start tftp:</em></p>
+<p><em>Address or name of remote host []? 10.0.0.1</em></p>
+<p><em>Destination filename [router-confg]?</em></p>
+<p><em>!!</em></p>
+<p><em>747 bytes copied in 0.256 secs</em></p>
+<p><em>Router#</em></p>
+<ol start="3">
+<li>Check the TFTP log to make sure that the file has been received.</li>
+</ol>
+<p><strong>FIG 1.61 – TFTP in action</strong></p>
+<p>You can look for the configuration file in Windows Explorer.</p>
+<p><strong>FIG 1.62 – File received</strong></p>
+<ol start="4">
+<li>Reload the router. You can use the <em>copy tftp: start</em></li>
+</ol>
+<p><em>Router#ping 10.0.0.1</em></p>
+<p><em>Type escape sequence to abort.</em></p>
+<p><em>Sending 5, 100-byte ICMP Echos to 10.0.0.1, timeout is 2 seconds:</em></p>
+<p><em>!!!!!</em></p>
+<p><em>Success rate is 100 percent (5/5), round-trip min/avg/max = 4/4/4 ms</em></p>
+<p><em>Router#copy tftp: start</em></p>
+<p><em>Address or name of remote host []? 10.0.0.1</em></p>
+<p><em>Source filename []? router-confg </em>– <strong>Note the spelling</strong></p>
+<p><em>Destination filename [startup-config]? </em>–&nbsp; <strong>Just press Enter here</strong></p>
+<p><em>Accessing tftp://10.0.0.1/router-confg…Accessing tftp://10.0.0.1/router-confg…</em></p>
+<p><em>Loading router-confg .from 10.0.0.1 (via Ethernet0): !</em></p>
+<p><em>[OK – 421/4096 bytes]</em></p>
+<p><em>[OK]</em></p>
+<p><em>747 bytes copied in 37.980 secs (11 bytes/sec)</em></p>
+<p><em>Router#</em></p>
+<p><em>00:18:04: %SYS-5-CONFIG_NV_I: Nonvolatile storage configured from tftp://10.0.0.1/router-confg by console</em></p>
+<p>ALWAYS, ALWAYS NAME THE ROUTER’S STARTUP CONFIGURATION AS startup-config. DOING OTHERWISE WILL PREVENT THE ROUTER FROM BOOTING CORRECTLY.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>

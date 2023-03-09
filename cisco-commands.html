@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html LANG="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <title>How to Network</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <style>
+            table, th, td {
+              border:1px solid black;
+            }
+            </style>
+    </head>
+    <body>
+        <nav id="navbar">
+            <header id="title">How to Network</header>
+            <ul id="nav-list">
+                <li><a class="nav-link" href="index">Introduction</a></li>
+                <li><a class="nav-link" href="ip-addressing">IP Addressing & Subnetting</a></li>
+                <li><a class="nav-link" href="cisco-commands">Cisco Commands</a></li>
+                <li><a class="nav-link" href="cisco-examples">Cisco Examples</a></li>
+                <li><a class="nav-link" href="it-study-guides">IT Study Guides</a></li>
+                <li><a class="nav-link" href="training-materials">Training Materials</a></li>
+                <li><a class="nav-link" href="Network-Fundamentals-Guide" target="_blank">Network Fundamentals Guide</a></li>
+
+
+        </nav>
+        <main id="main-doc">
+            <section class="main-section">
+                <header>Introduction to How to network</header>
+                <br>
+                <br>
+                <center>
+                    <h3>Cisco IOS Commands – CCNA Level</h3>
+                    <br>
+                        Here are what we think are the most important ones you need to know along with how to <br>
+                        apply them to live Cisco equipment. If you think there are some missing any out please drop send an  <br>
+                        email to help at <a href="mailto:adamrayliffe@gmail.com">adamrayliffe@gmail.com</a>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <u>Unprivileged Commands</u>
+                        <br>
+                        <br>
+                        <table style="width:100%">
+                            <tr>
+                                <td>Enable</td>
+                                <td>Exit</td>
+                                <td>Ping</td>
+                              </tr>
+                        </table>
+                        <br>
+                        <br>
+                        <br>
+                        <u>Privileged Commands</u>
+                        <br>
+                        <br>
+                        <table style="width:100%">
+                            <tr>
+                                <td>Configure Terminal</td>
+                                <td>copy running-config startup-config</td>
+                                <td>erase startup-config</td>
+                              </tr>
+                              <tr>
+                                  <td>reload</td>
+                                  <td>write</td>
+                                  <td>write terminal</td>
+                              </tr>
+                        </table>
+                        <br>
+                        <br>
+                        <u>Configure Commands</u>
+                        <br>
+                        <br>
+                        <table style="width:100%">
+                            <tr>
+                                <td>hostname</td>
+                                <td>interface</td>
+                                <td>ip host</td>
+                              </tr>
+                              <tr>
+                                  <td>ip route</td>
+                                  <td>ip default-gateway</td>
+                                  <td>ip nat inside</td>
+                              </tr>
+                              <tr>
+                                  <td>ip nat inside</td>
+                                  <td>ip domain-name</td>
+                                  <td>ip dhcp pool</td>
+                              </tr>
+                              <tr>
+                                  <td>VLAN</td>
+                                  <td>name</td>
+                                  <td>ip dhcp excluded-address</td>
+                              </tr>
+                        </table>
+                        <br>
+                        <br>
+                        <u>Interface Commands</u>
+                        <br>
+                        <br>
+                        <table style="width:100%">
+                            <tr>
+                                <td>ip adress</td>
+                                <td>encapsulation</td>
+                                <td>shutdown</td>
+                              </tr>
+                              <tr>
+                                  <td>no shutdown</td>
+                                  <td>ip address dhcp</td>
+                                  <td>description</td>
+                              </tr>
+                        </table>
+                        <br>
+                        <br>
+                        <u>Show Commands</u>
+                        <br>
+                        <br>
+                        <table style="width:100%">
+                            <tr>
+                                <td>show Running-config</td>
+                                <td>show interfaces</td>
+                                <td>show dhcp lease</td>
+                              </tr>
+                              <tr>
+                                  <td>show ip route	</td>
+                                  <td>show dhcp server</td>
+                                  <td>show ip interfaces</td>
+                              </tr>
+                              <tr>
+                                  <td>show Clock</td>
+                                  <td>show startup-config</td>
+                                  <td>show ip route connected</td>
+                              </tr>
+                        </table>
+                        <br>
+                        <br>
+                        <u>Clear Commands</u>
+                        <br>
+                        <br>
+                        <table style="width:100%">
+                            <tr>
+                                <td>clear ip route *</td>
+                                <td>clear ip ospf process</td>
+                                <td>clear ip eigrp neighbors</td>
+                              </tr>
+                        </table>
+                        <br>
+                        <br>
+                        <b>Switch Commands</b>
+                        <br>
+                        <br>
+                        <u>Privilege Commands</u>
+                        <br>
+                        <br>
+                        <table style="width:100%">
+                        <tr>
+                            <td>vlan database</td>
+                            <td>configure terminal</td>
+                        </tr>
+                        </table>
+                        <br>
+                        <br>
+                        <u>Configure Commands</u>
+                        <br>
+                        <br>
+                        <table style="width:100%">
+                            <tr>
+                                <td>vlan</td>
+                                <td>interface vlan</td>
+                                <td>ip default-gateway</td>
+                            </tr>
+                            <tr>
+                                <td>interface range</td>
+                                <td>spanning-tree vlan priority</td>
+                                <td>spanning-tree uplinkfast</td>
+                            </tr>
+                            </table>
+                            <br>
+                            <br>
+                            <u>Interface Commands</u>
+                            <br>
+                            <br>
+                            <table style="width:100%">
+                                <tr>
+                                    <td>switchport mode access</td>
+                                    <td>switchport mode trunk</td>
+                                    <td>switchport access vlan</td>
+                                </tr>
+                                <tr>
+                                    <td>spanning-tree portfast</td>
+                                    <td>switchport trunk encapsulation isl</td>
+                                    <td>switchport trunk allowed vlan</td>
+                                </tr>
+                                </table>
+                                <br>
+                                <br>
+                                <u>Show Commands</u>
+                                <table style="width:100%">
+                                    <tr>
+                                       <td>show vlan</td>
+                                       <td>show vlan brief</td>
+                                       <td>show interface trunk</td>
+                                    </tr>
+                                    <tr>
+                                       <td>show interface</td>
+                                       <td>show mac-address-table</td>
+                                       <td>show port-sec</td>
+                                    </tr>
+                                    </table>
+                </center>
+            </section>
+
+        </main>
+    </body>
+</html>
+
